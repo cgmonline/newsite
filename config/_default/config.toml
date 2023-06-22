@@ -3,9 +3,9 @@ baseURL = "https://cgmx.org/"
 title = "CGM"
 theme = "copper-hugo"
 # post pagination
-paginate = "6"
+paginate = "9"
 # post excerpt
-summaryLength = "10"
+summaryLength = "1"
 # google analytics
 googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name

@@ -19,9 +19,6 @@ mission:
 funfacts:
   enable : true
   funfacts_item:
-  - name : "创立于"
-    count : "2017"
-    extension : ""
     
   - name : "组织学术报告"
     count : "350"
@@ -32,12 +29,12 @@ funfacts:
     extension : "+"
   
   - name : "Bilibili粉丝数"
-    count : "1.2万"
-    extension : "+"
+    count : "1.2"
+    extension : "万+"
     
   - name : "视频播放数"
-    count : "30万"
-    extension : "+"
+    count : "30"
+    extension : "万+"
 
 
 ################## vision ###############
