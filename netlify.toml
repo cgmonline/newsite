@@ -17,11 +17,21 @@ Referrer-Policy = "same-origin"
 Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
 [[redirects]]
-  from = "/admin/*"
-  to = "/admin/:splat"
-  force = true
+  from = "/"
+  to = "/admin/"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+## This rule redirects to an external API, signing requests with a secret
+[[redirects]]
+  from = "/search"
+  to = "https://api.mysearch.com"
   status = 200
-  conditions = {Role = ["editor", "admin"]}
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
 
 # In this example, visitors whose JWT tokens include the `admin` or 
 # `editor` role can access the `/admin` path.
