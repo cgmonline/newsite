@@ -1,4 +1,16 @@
 ---
+############################## about us ################################
+about_us:
+  enable : true
+  title : "Who Are We And **What Is Our Identity?**"
+  image : "images/about/01.jpg"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores"
+  bulletpoints:
+    - "Habit building in essential steps choose habit Good Things"
+    - "Get an overview of Habit Calendars admiral general."
+    - "Start building habit with Habitify on platform to new"
+
+    
 ############################ Banner ##################################
 banner:
   enable : true
@@ -25,12 +37,12 @@ banner:
 ########################## How it works #########################
 homepage_tab:
   enable : true
-  title : "如何组织 **在线学术报告**"
+  title : "如何组织 **CGM 在线学术报告**"
   content : "论坛按照亚太，美洲，和欧洲三个时区轮流举办，每次邀请一到两位学者就自己的研究课题进行学术汇报."
   tablist:
   # tab item
-  - name : "发出邀请"
-    title : "发出邀请"
+  - name : "邀请报告人"
+    title : "Send **Invitation**"
     image : "images/screenshots/how-it-works-1.jpg"
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
     button:
@@ -40,7 +52,7 @@ homepage_tab:
       
   # tab item
   - name : "确认排期"
-    title : "确认排期"
+    title : "Confirm the **date and time**"
     image : "images/screenshots/03.png"
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
     button:
@@ -50,7 +62,7 @@ homepage_tab:
       
   # tab item
   - name : "视频直播"
-    title : "视频直播"
+    title : "**Host** the Meetup"
     image : "images/screenshots/04.png"
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
     button:
@@ -59,8 +71,8 @@ homepage_tab:
       link : "how-it-works"
       
   # tab item
-  - name : "上传视频"
-    title : "上传视频"
+  - name : "视频上传"
+    title : "**Follow-up** items"
     image : "images/screenshots/how-it-works-1.jpg"
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
     button:
@@ -69,21 +81,6 @@ homepage_tab:
       link : "how-it-works"
 
 
-############################## Tools in Use ########################
-tools:
-  enable : true
-  title : "Integrate the **tools you already use**"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
-  logos:
-  - "images/tools/01.png"
-  - "images/tools/02.png"
-  - "images/tools/03.png"
-  - "images/tools/04.png"
-  - "images/tools/05.png"
-  - "images/tools/06.png"
-  - "images/tools/07.png"
-  - "images/tools/08.png"
-  - "images/tools/05.png"
 
   
 
@@ -127,18 +124,7 @@ workflow:
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
   
 
-############################## about us ################################
-about_us:
-  enable : true
-  title : "Who Are We And **What Is Our Identity?**"
-  image : "images/about/01.jpg"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores"
-  bulletpoints:
-    - "Habit building in essential steps choose habit Good Things"
-    - "Get an overview of Habit Calendars admiral general."
-    - "Start building habit with Habitify on platform to new"
 
-    
 
 ############################# Testimonial ############################
 testimonial:
@@ -170,5 +156,17 @@ testimonial:
     image : "images/users/02.jpg"
     designation : "CEO, Angular Corporation"
     content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
+
+############################## Tools in Use ########################
+tools:
+  enable : true
+  title : "Integrate the **tools you already use**"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
+  logos:
+  - "images/tools/01.png"
+  - "images/tools/02.png"
+  - "images/tools/03.png"
+  - "images/tools/04.png"
+
 
 ---
