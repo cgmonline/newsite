@@ -9,7 +9,7 @@ logo_width = ""
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Copper"
+logo_text = "CGM"
 # purgeCSS
 purge_css = true
  
@@ -28,14 +28,14 @@ custom_script = ""
 
 # copyright
 theme_copyright = true
-copyright = "Copyright by your company" # also change copyright in language.toml file
+copyright = "Copyright by CGM @2023" # also change copyright in language.toml file
 
 # Preloader
 [preloader]
 enable = false
 preloader = "images/preloader.png" # use jpg, png, svg or gif format.
 greetings = "Welcome to"
-greetings_to = "Copper"
+greetings_to = "CGM"
 
 # Navigation button
 [navigation_button_bordered]
@@ -53,8 +53,10 @@ link = ""
 [subscription]
 enable = true
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name =  "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" 
+# replace this url with yours
+mailchimp_form_name =  "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           
+# replace this code with yours
 
 # Crisp Chat
 [crisp_chat]
@@ -82,7 +84,8 @@ enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
 keywords = ["Copper", "Hugo", "Gethugothemes", "Themefisher"]
 description = "This is meta description"
 author = "Gethugothemes"
-image = "images/logo.png"                                       # this image will be used as fallback if a page has no image of its own
+image = "images/logo.png"                                       
+# this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
 [matomo]
