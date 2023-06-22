@@ -19,20 +19,24 @@ mission:
 funfacts:
   enable : true
   funfacts_item:
-  - name : "Launched in April of"
-    count : "2015"
+  - name : "创立于"
+    count : "2017"
     extension : ""
     
-  - name : "Our product powers"
-    count : "1000"
+  - name : "组织学术报告"
+    count : "350"
     extension : "+"
     
-  - name : "served customers"
-    count : "15"
-    extension : "M+"
+  - name : "微信成员"
+    count : "2000"
+    extension : "+"
+  
+  - name : "Bilibili粉丝数"
+    count : "1.2万"
+    extension : "+"
     
-  - name : "Made by hand in"
-    count : "250"
+  - name : "视频播放数"
+    count : "30万"
     extension : "+"
 
 
