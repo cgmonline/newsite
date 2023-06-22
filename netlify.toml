@@ -17,10 +17,10 @@ Referrer-Policy = "same-origin"
 Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
 [[redirects]]
-  from = "/"
+  from = "/testauth/"
   to = "/testlogin/"
-  status = 301
-  force = true
+  status = 200
+  force = false
   query = {path = ":path"}
   conditions = {Role = ["admin"]}
 
@@ -31,7 +31,7 @@ Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
   force = false
   query = {path = ":path"}
   conditions = {Role = ["admin"]}
-
+  
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
   from = "/search"

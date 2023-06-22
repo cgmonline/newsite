@@ -26,11 +26,10 @@ name = "Services"
 url = "services/"
 weight = 5
 
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 6
 
+
+
+  
 [[main]]
 name = "Pages"
 weight = 7
@@ -70,6 +69,10 @@ hasChildren = true
   parent = "Pages"
   name = "Changelog"
   url = "changelog/"
+  
+
+
+
 
 # Footer menu
 [[footer]]
@@ -86,3 +89,18 @@ weight = 2
 name = "Privacy Policy"
 url = "privacy-policy/"
 weight = 3
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 4
+
+[[footer]]
+name = "网站管理"
+url = "admin/"
+weight = 5
+
+[[footer]]
+name = "Doc"
+url = "testlogin/"
+weight = 6
