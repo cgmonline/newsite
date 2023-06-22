@@ -25,12 +25,12 @@ banner:
 ########################## How it works #########################
 homepage_tab:
   enable : true
-  title : "How **it Works**"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
+  title : "如何组织 **在线学术报告**"
+  content : "论坛按照亚太，美洲，和欧洲三个时区轮流举办，每次邀请一到两位学者就自己的研究课题进行学术汇报."
   tablist:
   # tab item
-  - name : "Task Management"
-    title : "Task **Management**"
+  - name : "发出邀请"
+    title : "发出邀请"
     image : "images/screenshots/how-it-works-1.jpg"
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
     button:
@@ -39,8 +39,8 @@ homepage_tab:
       link : "how-it-works"
       
   # tab item
-  - name : "Built In Chat"
-    title : "Built In **Chat**"
+  - name : "确认排期"
+    title : "确认排期"
     image : "images/screenshots/03.png"
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
     button:
@@ -49,8 +49,8 @@ homepage_tab:
       link : "how-it-works"
       
   # tab item
-  - name : "Project Analytics"
-    title : "Project **Analytics**"
+  - name : "视频直播"
+    title : "视频直播"
     image : "images/screenshots/04.png"
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
     button:
@@ -59,8 +59,8 @@ homepage_tab:
       link : "how-it-works"
       
   # tab item
-  - name : "Task Collaboration"
-    title : "Task **Collaboration**"
+  - name : "上传视频"
+    title : "上传视频"
     image : "images/screenshots/how-it-works-1.jpg"
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
     button:

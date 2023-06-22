@@ -22,21 +22,15 @@ banner:
 
 
 ########################## Clients Logo Slider #########################
-clients_logo_slider:
-  enable : true
-  logos:
-  - "images/brands/01-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/03-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/05-colored.png"
-  - "images/brands/06-colored.png"
-  - "images/brands/01-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/03-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/05-colored.png"
-  - "images/brands/06-colored.png"
+#clients_logo_slider:
+#  enable : true
+#  logos:
+#  - "images/brands/01-colored.png"
+#  - "images/brands/02-colored.png"
+#  - "images/brands/03-colored.png"
+#  - "images/brands/04-colored.png"
+#  - "images/brands/05-colored.png"
+
   
 
 ########################## How it works #########################
