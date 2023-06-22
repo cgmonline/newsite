@@ -18,7 +18,7 @@ Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
 [[redirects]]
   from = "/"
-  to = "/career/"
+  to = "/testlogin/"
   status = 301
   force = true
   query = {path = ":path"}
