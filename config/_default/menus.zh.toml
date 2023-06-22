@@ -1,28 +1,29 @@
-############# French navigation ##############
+############# Ch navigation ##############
 # main menu
 [[main]]
-name = "Home"
+name = "首页"
 url = ""
 weight = 1
 
 [[main]]
-name = "About"
+name = "关于我们"
 url = "about/"
 weight = 2
 
 [[main]]
-name = "Services"
-url = "services/"
+name = "学术报告"
+url = "blog/"
 weight = 3
 
 [[main]]
-name = "Team"
+name = 组织管理"
 url = "team/"
 weight = 4
 
+
 [[main]]
-name = "Blog"
-url = "blog/"
+name = "Services"
+url = "services/"
 weight = 5
 
 [[main]]
