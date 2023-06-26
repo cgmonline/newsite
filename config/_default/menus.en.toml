@@ -104,3 +104,8 @@ weight = 5
 name = "Doc"
 url = "testlogin/"
 weight = 6
+
+[[footer]]
+name = "Pro"
+url = "pro/"
+weight = 6

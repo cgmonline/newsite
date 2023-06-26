@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gated Page</title>
+</head>
+<body>
+  <h1>Welcome to the Gated Page!</h1>
+
+  <!-- Content for authenticated users -->
+  <div id="authenticated-content" style="display: none;">
+    <p>This content is only visible to authenticated users.</p>
+    <p>Replace this content with your gated content.</p>
+    <button id="logout-btn">Logout</button>
+  </div>
+
+  <!-- Content for unauthenticated users -->
+  <div id="unauthenticated-content">
+    <p>You need to log in to access the gated content.</p>
+    <button id="login-btn">Login</button>
+    <div data-netlify-identity-menu></div>
+  </div>
+
+  <!-- Netlify Identity widget script -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <!-- Your custom JavaScript -->
+  <script src="gated.js"></script>
+</body>
+</html>
