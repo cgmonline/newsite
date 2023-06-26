@@ -1,7 +1,7 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <!-- Netlify Identity widget script -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" data-netlify-identity="http://cgmx.org/.netlify/identity"></script>
-
+ <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" data-netlify-identity="http://cgmx.org/.netlify/identity"></script>
+ 
 <header class="header-nav position-relative {{.Scratch.Get `bg`}}" data-aos="fade-in">
   <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light px-0">
@@ -77,10 +77,11 @@
         </ul>
       
         
-        <div class="navbar-button">
+        
           
           
           <div data-netlify-identity-menu></div>
+          
           <!--
           {{ with site.Params.navigation_button_bordered}}
           {{ if .enable }}
@@ -102,7 +103,7 @@
           {{ end }}
           -->
           
-        </div>
+        
       </div>
       <!-- nav links -->
     </nav>
