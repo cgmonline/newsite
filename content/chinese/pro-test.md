@@ -1,7 +1,7 @@
 ---
 title : "FAQ"
 description : "this is meta description"
-layout : "faq"
+layout : "gated"
 draft : false
 ---
 

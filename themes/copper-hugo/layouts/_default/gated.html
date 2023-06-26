@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $data := index site.Data site.Language.Lang }}
+
+
+
+  
+<!-- start of team-section -->
+<section class="section-padding pb-40" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 text-center mb-40">
+        
+        <!-- Content for authenticated users -->
+        <div id="authenticated-content" style="display: none;">
+          {{ .Content }}
+        </div>
+  
+      <!-- Content for unauthenticated users -->
+      <div id="unauthenticated-content">
+        <p>You need to log in to access the gated content.</p>
+        
+      </div>
+  
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Your custom JavaScript -->
+<script src="/gated.js"></script>  
+
+<!-- end of team-section -->
+{{ end }}
+

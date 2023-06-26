@@ -1,5 +1,6 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- Netlify Identity widget script -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" data-netlify-identity="http://cgmx.org/.netlify/identity"></script>
 
 <header class="header-nav position-relative {{.Scratch.Get `bg`}}" data-aos="fade-in">
   <div class="container">
@@ -78,8 +79,9 @@
         
         <div class="navbar-button">
           
+          
           <div data-netlify-identity-menu></div>
-          <!-- 
+          <!--
           {{ with site.Params.navigation_button_bordered}}
           {{ if .enable }}
           <a {{if .link}}href="{{.link | relLangURL}}" {{else}}data-bs-toggle="modal" data-bs-target="#signup-modal"
