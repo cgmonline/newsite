@@ -1,13 +1,3 @@
-################################### English language #####################################
-[en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 2
-footer_content = "Chinese Genomics Meet-up online (CGM) was launched by several early-career scientists in January 2017. The goal of CGM is to promote communication and cooperation among researchers whose primary research interest focuses on genomics. CGM is a weekly online event, primarily delivered in the Chinese language. You can follow us by subscribing to our WeChat Group or follow us on this website, YouTube Channel, or Bilibili. We welcome undergraduate, graduate students, postdocs, and faculty working on Molecular Biology, Genetics, Genomics, Bioinformatics, Biostatistics, and Evolutionary Biology."
-# copyright
-copyright = "Copyright by CGM"
-
 ################################### Chinese language #####################################
 [zh]
 languageName = "Ch"

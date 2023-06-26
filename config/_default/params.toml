@@ -39,13 +39,13 @@ greetings_to = "CGM"
 
 # Navigation button
 [navigation_button_bordered]
-enable = true
+enable = false
 label = "Sign Up"
 link = ""
 
 # Navigation button
 [navigation_button_linked]
-enable = true
+enable = false
 label = "Log In"
 link = ""
 
