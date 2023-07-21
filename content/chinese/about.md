@@ -7,13 +7,13 @@ draft : false
 ################## Mission ###############
 mission:
   enable : true
-  title : "Our mission is to **empower businesses With Tools**"
+  title : "使命(Mission)及核心价值(Core Values)"
   image : "images/about/02.jpg"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores"
+  content : "我们的使命为基因组研究赋予新动能 (empower genomics research with next-gen passion)"
   bulletpoints:
-  - "Habit building in essential steps choose habit Good Things"
-  - "Get an overview of Habit Calendars admiral general."
-  - "Start building habit with Habitify on platform to new"
+  - "科学优先：引领和推进基因组学研究的前沿方向"
+  - "非营利性：志愿者组织和一线研究者参与"
+  - "国际视野：构建具有包容心及国际视野的青年科学领袖孵化器"
 
 ################## Funfacts ###############
 funfacts:
@@ -29,12 +29,12 @@ funfacts:
     extension : "+"
   
   - name : "Bilibili粉丝数"
-    count : "1.2"
-    extension : "万+"
+    count : "12000"
+    extension : "+"
     
   - name : "视频播放数"
-    count : "30"
-    extension : "万+"
+    count : "30000"
+    extension : "+"
 
 
 ################## vision ###############
