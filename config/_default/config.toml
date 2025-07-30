@@ -39,3 +39,9 @@ rel = "manifest"
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffixes = [""]
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+  social = "social"
+
