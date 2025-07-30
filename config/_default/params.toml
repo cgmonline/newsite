@@ -84,7 +84,9 @@ enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
 keywords = ["Copper", "Hugo", "Gethugothemes", "Themefisher"]
 description = "This is meta description"
 author = "Gethugothemes"
-image = "images/logo.png"                                       
+twitter_site = ""
+twitter_creator = ""
+image = "images/logo.png"
 # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
