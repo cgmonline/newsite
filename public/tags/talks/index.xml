@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>talks on CGM</title>
+    <link>https://cgmx.org/tags/talks/</link>
+    <description>Recent content in talks on CGM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-zh</language>
+    <copyright>Copyright by CGM</copyright>
+    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cgmx.org/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>03-31-2022 Likelihood based Mendelian randomization analysis with automated instrument selection and horizontal pleiotropic modeling</title>
+      <link>https://cgmx.org/blog/2022-03-31-zhongshang_yuan/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/blog/2022-03-31-zhongshang_yuan/</guid>
+      <description>题目：Likelihood based Mendelian randomization analysis with automated instrument selection and horizontal pleiotropic modeling</description>
+    </item>
+    
+  </channel>
+</rss>

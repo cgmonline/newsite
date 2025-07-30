@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CGM</title>
+    <link>https://cgmx.org/</link>
+    <description>Recent content on CGM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-zh</language>
+    <copyright>Copyright by CGM</copyright>
+    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cgmx.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>03-31-2022 Likelihood based Mendelian randomization analysis with automated instrument selection and horizontal pleiotropic modeling</title>
+      <link>https://cgmx.org/blog/2022-03-31-zhongshang_yuan/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/blog/2022-03-31-zhongshang_yuan/</guid>
+      <description>题目：Likelihood based Mendelian randomization analysis with automated instrument selection and horizontal pleiotropic modeling</description>
+    </item>
+    
+    <item>
+      <title>植物没有DNA甲基化后，会变成什么样?</title>
+      <link>https://cgmx.org/blog/2022-03-30_lh/</link>
+      <pubDate>Wed, 30 Mar 2022 20:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/blog/2022-03-30_lh/</guid>
+      <description>题目：植物没有DNA甲基化后，会变成什么样?</description>
+    </item>
+    
+    <item>
+      <title>综合多组学数据和分析揭示康乃馨关键观赏性状的调控通路</title>
+      <link>https://cgmx.org/blog/2022-03-23_xnz/</link>
+      <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/blog/2022-03-23_xnz/</guid>
+      <description>题目：综合多组学数据和分析揭示康乃馨关键观赏性状的调控通路 时间：美国中部时间 2022年03月23日（星期三）7AM（北京时间03月23日9PM） 地点：Tecent and Bilibili live stream 主讲人:张晓妮，本科毕业于山东农业大学，博士毕业于华中农业大学（导师：王彩云/傅小鹏教授），博士期间从事石竹属植物再生体系、遗传转化体系的开发与利用，以及康乃馨等观赏植物的重要观赏性状的解析。2019年在中国农业科学院（深圳）农业基因组研究所开展博士后研究，合作导师为武志强研究员。 研究方向：利用多组学解析康乃馨等观赏植物重要性状的分子机理。 中文摘要 本研究对康乃馨栽培品种‘斯嘉丽’（ D.</description>
+    </item>
+    
+    <item>
+      <title>用Pore-C技术检测拟南芥基因组多位点互作及关联甲基化修饰信息</title>
+      <link>https://cgmx.org/blog/2022-03-16_zwl/</link>
+      <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/blog/2022-03-16_zwl/</guid>
+      <description>题目：用Pore-C技术检测拟南芥基因组多位点互作及关联甲基化修饰信息 时间：美国中部时间 2022年03月16日（星期三）7AM（北京时间03月16日9PM） 地点：Tecent and Bilibili live stream 主讲人:李卓雯, 本科毕业于中国农业大学；博士就读于南方科技大学生物学专业翟继先课题组。 目前主要的关注领域是Nanopore测序技术，植物基因组学，转录组学。 中文摘要 随着高通量测序技术的发展，大量基于二代测序的组学研究技术被陆续开发，人们得以从多个层面了解基因组的组成、结构与功能。染色质捕获技术（Chromosome conformation capture）通过对染色质进行酶切和邻近连接得到的嵌合体序列进行测序，获得染色质互作信息，从而解析基因组的三维结构。其中，Hi-C和ChIA-PET是应用最广的基因组水平染色质捕获技术。Hi-C和ChIA-PET技术在植物中的应用，为我们提供了丰富的植物基因组结构信息，解析了包括拟南芥、水稻、番茄、玉米等在内的多种植物的染色体互作图谱。然而，由于二代测序读长的限制以及其双端测序的特点，Hi-C和ChIA-PET技术只能提供染色体位点两两互作的信息（two-way interaction），而染色质多位点之间的互作信息 (multi-way interaction) 只能由多个细胞的两位点互作信息推理得出。由于细胞间的差异性，这种推论并不一定准确。另外，Hi-C和ChIA-PET技术也无法保留序列上的表观修饰信息。其他捕获染色质多位点互作的技术，如SPRITE和ChIA-Drop，操作难度较大，难以在植物中应用推广。 Nanopore测序技术是一种长读长、单分子的测序技术。使用对过孔电流信号的解析，Nanopore技术可以读出平均长达30kb的碱基序列信息，并获得分子上包括m5C, hm5C, and m6A在内的表观修饰信息。2019年，Ulahannan等人开发了Pore-C技术，使用Nanopore对染色质酶切、连接后形成的多片段嵌合体序列进行长读段测序，成功地解析了哺乳动物细胞中的染色质多位点互作情况。本研究在拟南芥中应用Pore-C技术，首次对植物基因组的多位点互作情况进行解析，探讨了包括KNOT组成元件（KNOT ENGAGED ELEMENTs， KEEs）和端粒区在内的多位点互作情况。在Pore-C技术基础上，我们解析并讨论了Nanopore读段上与互作信息偶联的甲基化修饰信息。与Hi-C技术相比，Pore-C技术的建库流程也简洁许多。我们的研究证实了Pore-C是一种简单、准确、高效的植物基因组多位点互作捕获工具，能帮助我们对植物基因组的三维结构有进一步的理解。</description>
+    </item>
+    
+    <item>
+      <title>温带禾草（早熟禾亚科）系统发育关系及其适应性演化</title>
+      <link>https://cgmx.org/blog/2022-03-09_zl/</link>
+      <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/blog/2022-03-09_zl/</guid>
+      <description>张琳, 本科毕业于四川农业大学；硕士毕业于中科院昆明植物研究所；博士就读于复旦大学生命科学学院马红课题组，于2021年11月毕业。 目前主要的关注领域是植物系统发育，性状演化，基因重复/演化，适应性演化。</description>
+    </item>
+    
+    <item>
+      <title>Your ‘Surge Capacity’ Is Depleted It’s Why You Feel Awful to The Society</title>
+      <link>https://cgmx.org/blog/post-1/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://cgmx.org/blog/post-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Your ‘Surge Capacity’ Is Depleted It’s Why You Feel Awful to The Society</title>
+      <link>https://cgmx.org/blog/post-2/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://cgmx.org/blog/post-2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Your ‘Surge Capacity’ Is Depleted It’s Why You Feel Awful to The Society</title>
+      <link>https://cgmx.org/blog/post-3/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://cgmx.org/blog/post-3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Your ‘Surge Capacity’ Is Depleted It’s Why You Feel Awful to The Society</title>
+      <link>https://cgmx.org/blog/post-4/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://cgmx.org/blog/post-4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Your ‘Surge Capacity’ Is Depleted It’s Why You Feel Awful to The Society</title>
+      <link>https://cgmx.org/blog/post-5/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://cgmx.org/blog/post-5/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Your ‘Surge Capacity’ Is Depleted It’s Why You Feel Awful to The Society</title>
+      <link>https://cgmx.org/blog/post-6/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://cgmx.org/blog/post-6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>https://cgmx.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://cgmx.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/contact/</guid>
+      <description>Contact Us Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://cgmx.org/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/faq/</guid>
+      <description>How to start with Copper?</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://cgmx.org/pro-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/pro-test/</guid>
+      <description>How to start with Copper?</description>
+    </item>
+    
+    <item>
+      <title>Full-Stack Designer</title>
+      <link>https://cgmx.org/career/job-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/career/job-4/</guid>
+      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
+    </item>
+    
+    <item>
+      <title>Full-Stack Engineer</title>
+      <link>https://cgmx.org/career/job-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/career/job-6/</guid>
+      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
+    </item>
+    
+    <item>
+      <title>Head Design</title>
+      <link>https://cgmx.org/career/job-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/career/job-2/</guid>
+      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
+    </item>
+    
+    <item>
+      <title>How It Works</title>
+      <link>https://cgmx.org/how-it-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/how-it-works/</guid>
+      <description>Task Management Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>Java Developer</title>
+      <link>https://cgmx.org/career/job-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/career/job-3/</guid>
+      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
+    </item>
+    
+    <item>
+      <title>Laravel Developer</title>
+      <link>https://cgmx.org/career/job-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/career/job-1/</guid>
+      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
+    </item>
+    
+    <item>
+      <title>Lead Product Designer</title>
+      <link>https://cgmx.org/career/job-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/career/job-5/</guid>
+      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
+    </item>
+    
+    <item>
+      <title>Mentoring Program</title>
+      <link>https://cgmx.org/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/services/</guid>
+      <description>Our Services Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>Pricing</title>
+      <link>https://cgmx.org/pricing-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/pricing-2/</guid>
+      <description>Choose Pricing Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>Pricing</title>
+      <link>https://cgmx.org/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/pricing/</guid>
+      <description>Choose Pricing Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://cgmx.org/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/privacy-policy/</guid>
+      <description>GDPR Compliance Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>https://cgmx.org/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/team/</guid>
+      <description>Our Team members Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>Terms &amp; Conditions</title>
+      <link>https://cgmx.org/terms-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/terms-conditions/</guid>
+      <description>GDPR Compliance Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>Testimonials</title>
+      <link>https://cgmx.org/testimonial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/testimonial/</guid>
+      <description>What Our Client says Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</description>
+    </item>
+    
+    <item>
+      <title>大事记</title>
+      <link>https://cgmx.org/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cgmx.org/changelog/</guid>
+      <description>2023 changed 启用新域名，建立新的网站 cgmx.</description>
+    </item>
+    
+  </channel>
+</rss>
