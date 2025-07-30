@@ -279,6 +279,18 @@
                 href="http://localhost:1313/about/"
                 />
   </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/zh/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-zh"
+                href="http://localhost:1313/authors/"
+                />
+  </url><url>
     <loc>http://localhost:1313/career/</loc>
     <xhtml:link
                 rel="alternate"
@@ -447,6 +459,18 @@
                 rel="alternate"
                 hreflang="zh-zh"
                 href="http://localhost:1313/privacy-policy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/social/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/zh/social/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-zh"
+                href="http://localhost:1313/social/"
                 />
   </url><url>
     <loc>http://localhost:1313/team/</loc>

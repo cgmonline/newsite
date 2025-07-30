@@ -181,6 +181,18 @@
                 href="http://localhost:1313/zh/about/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-zh"
+                href="http://localhost:1313/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/zh/authors/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh/career/</loc>
     <xhtml:link
                 rel="alternate"
@@ -359,6 +371,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/zh/services/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/social/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-zh"
+                href="http://localhost:1313/social/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/zh/social/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/tags/</loc>
