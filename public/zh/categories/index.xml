@@ -2,29 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on CGM</title>
-    <link>https://cgmx.org/zh/categories/</link>
+    <link>http://localhost:1313/zh/categories/</link>
     <description>Recent content in Categories on CGM</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright by CGM</copyright>
-    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://cgmx.org/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>science</title>
-      <link>https://cgmx.org/zh/categories/science/</link>
+      <title>Science</title>
+      <link>http://localhost:1313/zh/categories/science/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      
-      <guid>https://cgmx.org/zh/categories/science/</guid>
+      <guid>http://localhost:1313/zh/categories/science/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Technology</title>
-      <link>https://cgmx.org/zh/categories/technology/</link>
+      <link>http://localhost:1313/zh/categories/technology/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      
-      <guid>https://cgmx.org/zh/categories/technology/</guid>
+      <guid>http://localhost:1313/zh/categories/technology/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

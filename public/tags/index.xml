@@ -2,200 +2,159 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CGM</title>
-    <link>https://cgmx.org/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on CGM</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-zh</language>
     <copyright>Copyright by CGM</copyright>
-    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cgmx.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>automated instrument selection</title>
-      <link>https://cgmx.org/tags/automated-instrument-selection/</link>
+      <title>Automated Instrument Selection</title>
+      <link>http://localhost:1313/tags/automated-instrument-selection/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/automated-instrument-selection/</guid>
+      <guid>http://localhost:1313/tags/automated-instrument-selection/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Gibbs sampling</title>
-      <link>https://cgmx.org/tags/gibbs-sampling/</link>
+      <title>Gibbs Sampling</title>
+      <link>http://localhost:1313/tags/gibbs-sampling/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/gibbs-sampling/</guid>
+      <guid>http://localhost:1313/tags/gibbs-sampling/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>horizontal pleiotropic effects</title>
-      <link>https://cgmx.org/tags/horizontal-pleiotropic-effects/</link>
+      <title>Horizontal Pleiotropic Effects</title>
+      <link>http://localhost:1313/tags/horizontal-pleiotropic-effects/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/horizontal-pleiotropic-effects/</guid>
+      <guid>http://localhost:1313/tags/horizontal-pleiotropic-effects/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>joint likelihood framework</title>
-      <link>https://cgmx.org/tags/joint-likelihood-framework/</link>
+      <title>Joint Likelihood Framework</title>
+      <link>http://localhost:1313/tags/joint-likelihood-framework/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/joint-likelihood-framework/</guid>
+      <guid>http://localhost:1313/tags/joint-likelihood-framework/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Mendelian randomization</title>
-      <link>https://cgmx.org/tags/mendelian-randomization/</link>
+      <title>Mendelian Randomization</title>
+      <link>http://localhost:1313/tags/mendelian-randomization/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/mendelian-randomization/</guid>
+      <guid>http://localhost:1313/tags/mendelian-randomization/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>talks</title>
-      <link>https://cgmx.org/tags/talks/</link>
+      <title>Talks</title>
+      <link>http://localhost:1313/tags/talks/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/talks/</guid>
+      <guid>http://localhost:1313/tags/talks/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>DNA methylation; Plant development; Regulation of gene expression</title>
-      <link>https://cgmx.org/tags/dna-methylation-plant-development-regulation-of-gene-expression/</link>
+      <title>DNA Methylation; Plant Development; Regulation of Gene Expression</title>
+      <link>http://localhost:1313/tags/dna-methylation-plant-development-regulation-of-gene-expression/</link>
       <pubDate>Wed, 30 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/dna-methylation-plant-development-regulation-of-gene-expression/</guid>
+      <guid>http://localhost:1313/tags/dna-methylation-plant-development-regulation-of-gene-expression/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Dianthus caryophyllus</title>
-      <link>https://cgmx.org/tags/dianthus-caryophyllus/</link>
+      <title>Dianthus Caryophyllus</title>
+      <link>http://localhost:1313/tags/dianthus-caryophyllus/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/dianthus-caryophyllus/</guid>
+      <guid>http://localhost:1313/tags/dianthus-caryophyllus/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>eugenol</title>
-      <link>https://cgmx.org/tags/eugenol/</link>
+      <title>Eugenol</title>
+      <link>http://localhost:1313/tags/eugenol/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/eugenol/</guid>
+      <guid>http://localhost:1313/tags/eugenol/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>genome</title>
-      <link>https://cgmx.org/tags/genome/</link>
+      <title>Genome</title>
+      <link>http://localhost:1313/tags/genome/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/genome/</guid>
+      <guid>http://localhost:1313/tags/genome/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>petal pigments</title>
-      <link>https://cgmx.org/tags/petal-pigments/</link>
+      <title>Petal Pigments</title>
+      <link>http://localhost:1313/tags/petal-pigments/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/petal-pigments/</guid>
+      <guid>http://localhost:1313/tags/petal-pigments/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>petaloid stamens</title>
-      <link>https://cgmx.org/tags/petaloid-stamens/</link>
+      <title>Petaloid Stamens</title>
+      <link>http://localhost:1313/tags/petaloid-stamens/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/petaloid-stamens/</guid>
+      <guid>http://localhost:1313/tags/petaloid-stamens/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>DNA methylation</title>
-      <link>https://cgmx.org/tags/dna-methylation/</link>
+      <title>DNA Methylation</title>
+      <link>http://localhost:1313/tags/dna-methylation/</link>
       <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/dna-methylation/</guid>
+      <guid>http://localhost:1313/tags/dna-methylation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>long-read sequencing</title>
-      <link>https://cgmx.org/tags/long-read-sequencing/</link>
+      <title>Long-Read Sequencing</title>
+      <link>http://localhost:1313/tags/long-read-sequencing/</link>
       <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/long-read-sequencing/</guid>
+      <guid>http://localhost:1313/tags/long-read-sequencing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>multi-way interaction</title>
-      <link>https://cgmx.org/tags/multi-way-interaction/</link>
+      <title>Multi-Way Interaction</title>
+      <link>http://localhost:1313/tags/multi-way-interaction/</link>
       <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/multi-way-interaction/</guid>
+      <guid>http://localhost:1313/tags/multi-way-interaction/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Pore-C</title>
-      <link>https://cgmx.org/tags/pore-c/</link>
+      <link>http://localhost:1313/tags/pore-c/</link>
       <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/pore-c/</guid>
+      <guid>http://localhost:1313/tags/pore-c/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>adaptive evolution</title>
-      <link>https://cgmx.org/tags/adaptive-evolution/</link>
+      <title>Adaptive Evolution</title>
+      <link>http://localhost:1313/tags/adaptive-evolution/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/adaptive-evolution/</guid>
+      <guid>http://localhost:1313/tags/adaptive-evolution/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>diversification</title>
-      <link>https://cgmx.org/tags/diversification/</link>
+      <title>Diversification</title>
+      <link>http://localhost:1313/tags/diversification/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/diversification/</guid>
+      <guid>http://localhost:1313/tags/diversification/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gene duplication</title>
-      <link>https://cgmx.org/tags/gene-duplication/</link>
+      <title>Gene Duplication</title>
+      <link>http://localhost:1313/tags/gene-duplication/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/gene-duplication/</guid>
+      <guid>http://localhost:1313/tags/gene-duplication/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nuclear phylogeny</title>
-      <link>https://cgmx.org/tags/nuclear-phylogeny/</link>
+      <title>Nuclear Phylogeny</title>
+      <link>http://localhost:1313/tags/nuclear-phylogeny/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/nuclear-phylogeny/</guid>
+      <guid>http://localhost:1313/tags/nuclear-phylogeny/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Pooideae</title>
-      <link>https://cgmx.org/tags/pooideae/</link>
+      <link>http://localhost:1313/tags/pooideae/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      
-      <guid>https://cgmx.org/tags/pooideae/</guid>
+      <guid>http://localhost:1313/tags/pooideae/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
