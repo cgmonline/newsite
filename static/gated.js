@@ -7,18 +7,24 @@
     showUnauthenticatedContent();
   }
 
-  document.getElementById('login-btn').addEventListener('click', async () => {
-    await auth0.loginWithRedirect({
-      authorizationParams: {
-        redirect_uri: window.location.origin
-      }
+  const loginBtn = document.getElementById('login-btn');
+  if (loginBtn) {
+    loginBtn.addEventListener('click', async () => {
+      await auth0.loginWithRedirect({
+        authorizationParams: {
+          redirect_uri: window.location.origin
+        }
+      });
     });
-  });
+  }
 
-  document.getElementById('logout-btn').addEventListener('click', async () => {
-    await auth0.logout({ returnTo: window.location.origin });
-    showUnauthenticatedContent();
-  });
+  const logoutBtn = document.getElementById('logout-btn');
+  if (logoutBtn) {
+    logoutBtn.addEventListener('click', async () => {
+      await auth0.logout({ returnTo: window.location.origin });
+      showUnauthenticatedContent();
+    });
+  }
 })();
 
 function showAuthenticatedContent() {
