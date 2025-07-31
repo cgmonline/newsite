@@ -97,7 +97,11 @@
                 if (d > exp){
                 console.log("Your session has expired")
                 auth0.logout({ returnTo: window.location.href });
-                auth0.loginWithRedirect();
+                auth0.loginWithRedirect({
+                    authorizationParams: {
+                        redirect_uri: window.location.origin + '/callback/'
+                    }
+                });
                 } else {
                 console.log("the token hasn't expired, yet")
                 updateLoginText()
@@ -108,7 +112,11 @@
                 if (user) {
                     updateLoginText();
                 } else {
-                    document.getElementById('auth0-login-btn').addEventListener('click', () => auth0.loginWithRedirect());
+                    document.getElementById('auth0-login-btn').addEventListener('click', () => auth0.loginWithRedirect({
+                        authorizationParams: {
+                            redirect_uri: window.location.origin + '/callback/'
+                        }
+                    }));
                 }
             })();
             
