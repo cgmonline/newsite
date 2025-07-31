@@ -2,7 +2,6 @@
 <script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
 {{ partial "auth0-config.html" }}
 <script src="{{ "auth0-init.js" | relURL }}"></script>
-<script src="{{ "Navbar.js" | relURL }}"></script>
 
 <header class="header-nav position-relative {{.Scratch.Get `bg`}}" data-aos="fade-in">
   <div class="container">
@@ -83,7 +82,6 @@
             <button onclick="auth0 && auth0.loginWithRedirect({authorizationParams: {redirect_uri: window.location.origin}})">Log in</button>
             <button onclick="auth0 && auth0.loginWithRedirect({screen_hint: 'signup', authorizationParams: {redirect_uri: window.location.origin}})">Sign up</button>
           
-          <script src="static/Navbar.js" defer></script>
           <!-- 
           {{ with site.Params.navigation_button_bordered}}
           {{ if .enable }}
