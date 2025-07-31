@@ -8,7 +8,11 @@
   }
 
   document.getElementById('login-btn').addEventListener('click', async () => {
-    await auth0.loginWithRedirect();
+    await auth0.loginWithRedirect({
+      authorizationParams: {
+        redirect_uri: window.location.origin
+      }
+    });
   });
 
   document.getElementById('logout-btn').addEventListener('click', async () => {
