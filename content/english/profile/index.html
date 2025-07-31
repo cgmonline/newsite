@@ -1,17 +1,16 @@
 ---
-title: "User Profile"
-layout: "regular"
+title: "Profile"
+description: "Edit your profile"
+layout: "gated"
 ---
-
-<div id="profile-page" class="container py-5">
-  <p id="welcome-message" class="h5"></p>
-  <form id="profile-form" style="display:none;" class="mt-4">
-    <div class="form-group mb-3">
-      <label for="full-name" class="h6">Full Name</label>
-      <input id="full-name" type="text" class="form-control shadow-none" />
+<div class="container py-5">
+  <h1>Edit Profile</h1>
+  <form id="profile-form" class="my-4">
+    <div class="mb-3">
+      <label for="full_name" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="full_name" />
     </div>
-    <button type="submit" class="btn btn-primary">Update Profile</button>
+    <button type="submit" class="btn btn-primary">Save</button>
   </form>
 </div>
-
-<script src="/profile.js" defer></script>
+<script src="/profile.js"></script>
