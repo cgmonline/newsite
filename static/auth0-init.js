@@ -1,7 +1,7 @@
 window.auth0 = null;
 window.auth0ClientPromise = createAuth0Client({
-  domain: 'YOUR_AUTH0_DOMAIN',
-  client_id: 'YOUR_AUTH0_CLIENT_ID',
+  domain: 'dev-bm83wa86bo4gmb4x.auth0.com',
+  client_id: 'dAlXWEe7JLEgOTsV3LgKLHnWspb91Ozo',
   cacheLocation: 'localstorage'
 }).then(client => {
   window.auth0 = client;
