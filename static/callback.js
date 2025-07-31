@@ -3,12 +3,12 @@ window.addEventListener('DOMContentLoaded', async () => {
   if (window.location.search.includes('code=') &&
       window.location.search.includes('state=')) {
     try {
-      const { appState } = await client.handleRedirectCallback();
-      updateUserMenu(await client.getUser());
+      await client.handleRedirectCallback();
+      const user = await client.getUser();
+      updateUserMenu(user);
       // remove code and state query parameters to keep URL clean
-      window.history.replaceState({}, document.title, '/');
-      const target = (appState && appState.targetUrl) || '/';
-      window.location.replace(target);
+      window.history.replaceState({}, document.title, window.location.pathname);
+      displayUserInfo(user);
     } catch (err) {
       console.error('Auth0 callback processing failed', err);
     }
@@ -16,3 +16,10 @@ window.addEventListener('DOMContentLoaded', async () => {
     window.location.replace('/');
   }
 });
+
+function displayUserInfo(user) {
+  const container = document.getElementById("user-info");
+  if (!container || !user) return;
+  container.innerHTML = `<h2>Welcome, ${user.name || user.email}</h2>\n<pre>${JSON.stringify(user, null, 2)}</pre>`;
+}
+
