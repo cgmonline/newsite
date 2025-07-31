@@ -6,12 +6,12 @@ window.addEventListener('DOMContentLoaded', async () => {
       const { appState } = await client.handleRedirectCallback();
       // remove code and state query parameters to keep URL clean
       window.history.replaceState({}, document.title, '/');
-      const target = (appState && appState.targetUrl) || '/homepage';
+      const target = (appState && appState.targetUrl) || '/';
       window.location.replace(target);
     } catch (err) {
       console.error('Auth0 callback processing failed', err);
     }
   } else {
-    window.location.replace('/homepage');
+    window.location.replace('/');
   }
 });
