@@ -3,12 +3,6 @@
  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
  {{ partial "auth0-config.html" }}
  <script src="{{ "auth0-init.js" | relURL }}"></script>
-
-<script src="/env.js"></script>
-<script>
-  window.AUTH0_DOMAIN = window._env_.AUTH0_DOMAIN;
-  window.AUTH0_CLIENT_ID = window._env_.AUTH0_CLIENT_ID;
-</script>
  
 <header class="header-nav position-relative {{.Scratch.Get `bg`}}" data-aos="fade-in">
   <div class="container">
