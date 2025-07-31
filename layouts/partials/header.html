@@ -79,9 +79,9 @@
         </ul>
       
         
-        <div class="navbar-button">
-          <button onclick="auth0 && auth0.loginWithRedirect()">Log in</button>
-          <button onclick="auth0 && auth0.loginWithRedirect({screen_hint: 'signup'})">Sign up</button>
+          <div class="navbar-button">
+            <button onclick="auth0 && auth0.loginWithRedirect({authorizationParams: {redirect_uri: window.location.origin}})">Log in</button>
+            <button onclick="auth0 && auth0.loginWithRedirect({screen_hint: 'signup', authorizationParams: {redirect_uri: window.location.origin}})">Sign up</button>
           
           <script src="static/Navbar.js" defer></script>
           <!-- 
