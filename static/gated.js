@@ -12,7 +12,8 @@
     loginBtn.addEventListener('click', async () => {
       await auth0.loginWithRedirect({
         authorizationParams: {
-          redirect_uri: window.location.origin
+          // Send users to the Auth0 callback page after authentication
+          redirect_uri: window.location.origin + '/callback/'
         }
       });
     });
