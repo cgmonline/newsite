@@ -525,15 +525,15 @@
           
           
           
-          <a id="signup-btn" data-bs-toggle="modal" data-bs-target="#signup-modal"
-             class="btn btn-sm btn-outline-primary">Sign Up</a>
+          <a id="signup-btn" href="#" onclick="netlifyIdentity.open('signup'); return false;"
+            class="btn btn-sm btn-outline-primary">Sign Up</a>
           
           
 
           
           
-          <a id="login-btn"  data-bs-toggle="modal" data-bs-target="#signin-modal"
-             class="btn btn-sm btn-link pe-xl-0">Log In<svg width="1.5em" height="1.5em"
+          <a id="login-btn" href="#" onclick="netlifyIdentity.open('login'); return false;"
+            class="btn btn-sm btn-link pe-xl-0">Log In<svg width="1.5em" height="1.5em"
               viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
               xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
@@ -552,82 +552,6 @@
   </div>
 </header>
 <!-- /navigation -->
-
-
-
-
-<div class="modal fade rounded" id="signup-modal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font-weight-bold">Sign up now</h4>
-        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body p-3 p-sm-4">
-        <form method="POST" class="needs-validation row" novalidate>
-          <div class="form-group mb-20 col-md-6">
-            <label class="h6 font-weight-600 mb-2" for="fname">First Name*</label>
-            <input class="form-control shadow-none" type="text" placeholder="Jack" id="fname" required>
-            <p class="font-weight-bold invalid-feedback">Your first name is required!</p>
-          </div>
-          <div class="form-group mb-20 col-md-6">
-            <label class="h6 font-weight-600 mb-2" for="lname">Last Name*</label>
-            <input class="form-control shadow-none" type="text" placeholder="Barker" id="lname" required>
-            <p class="font-weight-bold invalid-feedback">Your last name is required!</p>
-          </div>
-          <div class="form-group mb-20 col-12">
-            <label class="h6 font-weight-600 mb-2" for="email2">Email Address*</label>
-            <input class="form-control shadow-none" type="email" placeholder="jack@email.com" id="email2" required>
-            <p class="font-weight-bold invalid-feedback">Your email is required!</p>
-          </div>
-          <div class="form-group mb-20 col-12">
-            <label class="h6 font-weight-600 mb-2" for="password">Password*</label>
-            <input class="form-control shadow-none" type="password" id="password" required>
-            <p class="font-weight-bold invalid-feedback">Your password is required!</p>
-          </div>
-          <div class="form-group mb-20 col-12">
-            <label class="h6 font-weight-600 mb-2" for="repassword">Retype Password*</label>
-            <input class="form-control shadow-none" type="password" id="repassword" required>
-            <p class="font-weight-bold invalid-feedback">Please retype your password.</p>
-          </div>
-          <div class="form-group col-12">
-            <button class="btn btn-primary w-100" type="submit">Sign Up</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="modal fade rounded" id="signin-modal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable mx-auto" style="max-width:400px">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font-weight-bold">Welcome back</h4>
-        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body p-3 p-sm-4">
-        <form method="POST" class="needs-validation row" novalidate>
-          <div class="form-group mb-20 col-12">
-            <label class="h6 font-weight-600 mb-2" for="email">Email Address*</label>
-            <input class="form-control shadow-none" type="email" id="email" required>
-            <p class="font-weight-bold invalid-feedback">Your email is required!</p>
-          </div>
-          <div class="form-group mb-20 col-12">
-            <label class="h6 font-weight-600 mb-2" for="passwordSignIn">Password*</label>
-            <input class="form-control shadow-none" type="password" id="passwordSignIn" required>
-            <p class="font-weight-bold invalid-feedback">Your password is required!</p>
-          </div>
-          <div class="form-group col-12">
-            <button class="btn btn-primary w-100" type="submit">Sign In</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
 
   
 <section class="page-header bg-light-gray has-shapes has-bg-brash bg-brash-bottom"

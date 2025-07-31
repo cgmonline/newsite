@@ -361,6 +361,8 @@
                 href="http://localhost:1313/zh/privacy-policy/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh/profile/</loc>
+  </url><url>
     <loc>http://localhost:1313/zh/services/</loc>
     <xhtml:link
                 rel="alternate"
