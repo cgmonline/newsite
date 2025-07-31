@@ -1,13 +1,11 @@
-const netlifyIdentity = window.netlifyIdentity;
-
-function updateUserMenu(user) {
+async function updateUserMenu(user) {
   const menu = document.getElementById('user-menu');
   const name = document.getElementById('user-name');
   const loginBtn = document.getElementById('login-btn');
   const signupBtn = document.getElementById('signup-btn');
   if (!menu || !name) return;
   if (user) {
-    name.textContent = user.user_metadata && user.user_metadata.full_name ? user.user_metadata.full_name : user.email;
+    name.textContent = user.name || user.email || 'User';
     menu.classList.remove('d-none');
     if (loginBtn) loginBtn.style.display = 'none';
     if (signupBtn) signupBtn.style.display = 'none';
@@ -18,21 +16,16 @@ function updateUserMenu(user) {
   }
 }
 
-if (netlifyIdentity) {
-  netlifyIdentity.on('init', user => updateUserMenu(user));
-  netlifyIdentity.on('login', user => updateUserMenu(user));
-  netlifyIdentity.on('logout', () => updateUserMenu(null));
-  netlifyIdentity.init();
-}
+document.addEventListener('DOMContentLoaded', async function () {
+  const auth0 = await window.auth0ClientPromise;
+  updateUserMenu(await auth0.getUser());
 
-document.addEventListener('DOMContentLoaded', function () {
   const logoutBtn = document.getElementById('logout-btn');
   if (logoutBtn) {
-    logoutBtn.addEventListener('click', function (e) {
+    logoutBtn.addEventListener('click', async function (e) {
       e.preventDefault();
-      if (netlifyIdentity) {
-        netlifyIdentity.logout();
-      }
+      await auth0.logout({ returnTo: window.location.origin });
+      updateUserMenu(null);
     });
   }
 });

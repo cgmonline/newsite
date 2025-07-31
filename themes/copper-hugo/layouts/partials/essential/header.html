@@ -1,6 +1,7 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<!-- Netlify Identity widget script -->
- <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" data-netlify-identity="http://cgmx.org/.netlify/identity"></script>
+<!-- Auth0 widget script -->
+ <script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
+ <script src="{{ "auth0-init.js" | relURL }}"></script>
  
 <header class="header-nav position-relative {{.Scratch.Get `bg`}}" data-aos="fade-in">
   <div class="container">

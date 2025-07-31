@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <link rel="stylesheet" href="/css/app.css">
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script type="text/javascript" src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
+    <script src="/auth0-init.js"></script>
     <title>Identity Example Site</title>
 </head>
 
@@ -79,7 +80,7 @@
                             <strong>username:</strong> test@netlify.com <br />  
                             <strong>password:</strong> testing
                         </blockquote>
-                        <button class="btn waves-effect waves-light black" type="submit" name="action" data-netlify-identity-button><i class="material-icons right"></i></button>
+                        <button class="btn waves-effect waves-light black" id="auth0-login-btn" type="button"><i class="material-icons right"></i></button>
                     </main>
                 </div>
                 </div>
@@ -94,29 +95,22 @@
             const compareDate = (exp) => {
                 const d = Date.now()
                 if (d > exp){
-                console.log("Your identity session has expired")
-                netlifyIdentity.logout();
-                netlifyIdentity.open();
+                console.log("Your session has expired")
+                auth0.logout({ returnTo: window.location.href });
+                auth0.loginWithRedirect();
                 } else {
                 console.log("the token hasn't expired, yet")
                 updateLoginText()
                 }
             }
-            if (window.netlifyIdentity) {
-    // Check if the JWT token is expired, if so log out the user          
-                netlifyIdentity.on("login", user => {
-                console.log(user)
-                compareDate(user.token.expires_at)
-                });
-    // Redirect to the main page after a successful login
-                window.netlifyIdentity.on("init", user => {
-                if (!user) {
-                    window.netlifyIdentity.on("login", () => {
-                        updateLoginText()
-                    });
+            (async () => {
+                const user = await auth0.getUser();
+                if (user) {
+                    updateLoginText();
+                } else {
+                    document.getElementById('auth0-login-btn').addEventListener('click', () => auth0.loginWithRedirect());
                 }
-            });   
-            }
+            })();
             
     </script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

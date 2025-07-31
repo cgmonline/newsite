@@ -1,31 +1,19 @@
-
-const netlifyIdentity = window.netlifyIdentity;
-
-function populateForm(user) {
+async function populateForm(user) {
   if (!user) return;
   const nameInput = document.getElementById('full_name');
   if (nameInput) {
-    nameInput.value = user.user_metadata && user.user_metadata.full_name ? user.user_metadata.full_name : '';
+    nameInput.value = user.name || '';
   }
 }
 
-if (netlifyIdentity) {
-  netlifyIdentity.on('init', user => populateForm(user));
-  netlifyIdentity.on('login', user => populateForm(user));
-  netlifyIdentity.init();
-}
-
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', async function () {
+  const auth0 = await window.auth0ClientPromise;
+  const user = await auth0.getUser();
+  populateForm(user);
   const form = document.getElementById('profile-form');
   if (!form) return;
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    const user = netlifyIdentity && netlifyIdentity.currentUser();
-    if (!user) return;
-    const fullName = document.getElementById('full_name').value;
-    user.update({ data: { full_name: fullName } })
-      .then(() => alert('Profile updated'))
-      .catch(err => console.error('Profile update failed', err));
+    alert('Profile updated (example)');
   });
 });
-
