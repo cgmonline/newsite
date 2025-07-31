@@ -45,3 +45,8 @@ suffixes = [""]
   author = "authors"
   social = "social"
 
+########################### Security ############################
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^AUTH0_']
+
