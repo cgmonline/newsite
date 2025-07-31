@@ -1,7 +1,7 @@
-<script src="/env.js"></script>
 <script>
-  // Values injected by env.js take precedence. Falling back to environment
-  // variables allows local builds without the Netlify plugin.
-  window.AUTH0_DOMAIN = window._env_?.AUTH0_DOMAIN || "{{ getenv "AUTH0_DOMAIN" }}";
-  window.AUTH0_CLIENT_ID = window._env_?.AUTH0_CLIENT_ID || "{{ getenv "AUTH0_CLIENT_ID" }}";
+  // Auth0 credentials are injected directly from environment variables at build
+  // time. When running locally, define AUTH0_DOMAIN and AUTH0_CLIENT_ID in your
+  // environment so Hugo can substitute them here.
+  window.AUTH0_DOMAIN = "{{ getenv "AUTH0_DOMAIN" }}";
+  window.AUTH0_CLIENT_ID = "{{ getenv "AUTH0_CLIENT_ID" }}";
 </script>
