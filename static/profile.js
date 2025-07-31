@@ -1,3 +1,4 @@
+
 const netlifyIdentity = window.netlifyIdentity;
 
 function populateForm(user) {
