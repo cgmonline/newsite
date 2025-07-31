@@ -3,10 +3,8 @@ window.auth0ClientPromise = createAuth0Client({
   domain: window.AUTH0_DOMAIN,
   client_id: window.AUTH0_CLIENT_ID,
   cacheLocation: 'localstorage',
-  authorizationParams: {
-    // Redirect back to the dedicated callback page after login
-    redirect_uri: window.location.origin + '/callback/',
-  },
+  // Redirect back to the dedicated callback page after login
+  redirect_uri: window.location.origin + '/callback/',
 }).then((client) => {
   window.auth0 = client;
   return client;

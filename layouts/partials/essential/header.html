@@ -99,14 +99,14 @@
           
           {{ with site.Params.navigation_button_bordered}}
           {{ if .enable }}
-          <a id="signup-btn" href="#" onclick="auth0 && auth0.loginWithRedirect({screen_hint: 'signup', authorizationParams: {redirect_uri: window.location.origin + '/callback/'}}); return false;"
+          <a id="signup-btn" href="#" onclick="auth0 && auth0.loginWithRedirect({screen_hint: 'signup', redirect_uri: window.location.origin + '/callback/'}); return false;"
             class="btn btn-sm btn-outline-primary">{{ .label }}</a>
           {{ end }}
           {{ end }}
 
           {{ with site.Params.navigation_button_linked}}
           {{ if .enable }}
-          <a id="login-btn" href="#" onclick="auth0 && auth0.loginWithRedirect({authorizationParams: {redirect_uri: window.location.origin + '/callback/'}}); return false;"
+          <a id="login-btn" href="#" onclick="auth0 && auth0.loginWithRedirect({redirect_uri: window.location.origin + '/callback/'}); return false;"
             class="btn btn-sm btn-link pe-xl-0">{{ .label }}<svg width="1.5em" height="1.5em"
               viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
               xmlns="http://www.w3.org/2000/svg">

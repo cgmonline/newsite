@@ -79,8 +79,8 @@
       
         
           <div class="navbar-button">
-            <button onclick="auth0 && auth0.loginWithRedirect({authorizationParams: {redirect_uri: window.location.origin + '/callback/'}})">Log in</button>
-            <button onclick="auth0 && auth0.loginWithRedirect({screen_hint: 'signup', authorizationParams: {redirect_uri: window.location.origin + '/callback/'}})">Sign up</button>
+            <button onclick="auth0 && auth0.loginWithRedirect({redirect_uri: window.location.origin + '/callback/'})">Log in</button>
+            <button onclick="auth0 && auth0.loginWithRedirect({screen_hint: 'signup', redirect_uri: window.location.origin + '/callback/'})">Sign up</button>
           
           <!-- 
           {{ with site.Params.navigation_button_bordered}}
