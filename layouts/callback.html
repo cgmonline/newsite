@@ -1,15 +1,16 @@
-<!doctype html>
-<html lang="{{ .Site.Language.Lang }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Auth0 Callback</title>
-  {{ partial "auth0-config.html" }}
-  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
-  <script src="/auth0-init.js"></script>
-  <script src="/callback.js"></script>
-</head>
-<body>
-  {{ .Content }}
-</body>
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default `en-US` }}">
+  <head>
+    {{ partial "essential/head.html" . }}
+    {{ partialCached "essential/style.html" . }}
+  </head>
+  <body>
+    {{ partial "essential/header.html" . }}
+    <main>
+      {{ .Content }}
+    </main>
+    {{ partial "essential/footer.html" . }}
+    {{ partialCached "essential/script.html" . }}
+    <script src="/callback.js"></script>
+  </body>
 </html>
