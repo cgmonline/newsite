@@ -2,437 +2,437 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh/</loc>
+    <loc>//localhost:1313/zh/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/"
+                href="//localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/"
+                href="//localhost:1313/zh/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/blog/</loc>
+    <loc>//localhost:1313/zh/blog/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/blog/"
+                href="//localhost:1313/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/blog/"
+                href="//localhost:1313/zh/blog/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/categories/</loc>
+    <loc>//localhost:1313/zh/categories/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/categories/"
+                href="//localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/categories/"
+                href="//localhost:1313/zh/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/categories/science/</loc>
+    <loc>//localhost:1313/zh/categories/science/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/categories/science/"
+                href="//localhost:1313/categories/science/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/categories/science/"
+                href="//localhost:1313/zh/categories/science/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/categories/technology/</loc>
+    <loc>//localhost:1313/zh/categories/technology/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/categories/technology/"
+                href="//localhost:1313/categories/technology/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/categories/technology/"
+                href="//localhost:1313/zh/categories/technology/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/blog/post-1/</loc>
+    <loc>//localhost:1313/zh/blog/post-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/blog/post-1/"
+                href="//localhost:1313/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/blog/post-1/"
+                href="//localhost:1313/zh/blog/post-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/blog/post-2/</loc>
+    <loc>//localhost:1313/zh/blog/post-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/blog/post-2/"
+                href="//localhost:1313/blog/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/blog/post-2/"
+                href="//localhost:1313/zh/blog/post-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/blog/post-3/</loc>
+    <loc>//localhost:1313/zh/blog/post-3/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/blog/post-3/"
+                href="//localhost:1313/blog/post-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/blog/post-3/"
+                href="//localhost:1313/zh/blog/post-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/blog/post-4/</loc>
+    <loc>//localhost:1313/zh/blog/post-4/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/blog/post-4/"
+                href="//localhost:1313/blog/post-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/blog/post-4/"
+                href="//localhost:1313/zh/blog/post-4/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/blog/post-5/</loc>
+    <loc>//localhost:1313/zh/blog/post-5/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/blog/post-5/"
+                href="//localhost:1313/blog/post-5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/blog/post-5/"
+                href="//localhost:1313/zh/blog/post-5/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/blog/post-6/</loc>
+    <loc>//localhost:1313/zh/blog/post-6/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/blog/post-6/"
+                href="//localhost:1313/blog/post-6/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/blog/post-6/"
+                href="//localhost:1313/zh/blog/post-6/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/admin/</loc>
+    <loc>//localhost:1313/zh/admin/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/admin/"
+                href="//localhost:1313/admin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/admin/"
+                href="//localhost:1313/zh/admin/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/testlogin/</loc>
+    <loc>//localhost:1313/zh/testlogin/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/testlogin/"
+                href="//localhost:1313/testlogin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/testlogin/"
+                href="//localhost:1313/zh/testlogin/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/about/</loc>
+    <loc>//localhost:1313/zh/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/about/"
+                href="//localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/about/"
+                href="//localhost:1313/zh/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/authors/</loc>
+    <loc>//localhost:1313/zh/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/authors/"
+                href="//localhost:1313/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/authors/"
+                href="//localhost:1313/zh/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/career/</loc>
+    <loc>//localhost:1313/zh/career/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/career/"
+                href="//localhost:1313/career/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/career/"
+                href="//localhost:1313/zh/career/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/changelog/</loc>
+    <loc>//localhost:1313/zh/changelog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/changelog/"
+                href="//localhost:1313/changelog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/changelog/"
+                href="//localhost:1313/zh/changelog/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/contact/</loc>
+    <loc>//localhost:1313/zh/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/contact/"
+                href="//localhost:1313/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/contact/"
+                href="//localhost:1313/zh/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/faq/</loc>
+    <loc>//localhost:1313/zh/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/faq/"
+                href="//localhost:1313/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/faq/"
+                href="//localhost:1313/zh/faq/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/career/job-4/</loc>
+    <loc>//localhost:1313/zh/career/job-4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/career/job-4/"
+                href="//localhost:1313/career/job-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/career/job-4/"
+                href="//localhost:1313/zh/career/job-4/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/career/job-6/</loc>
+    <loc>//localhost:1313/zh/career/job-6/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/career/job-6/"
+                href="//localhost:1313/career/job-6/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/career/job-6/"
+                href="//localhost:1313/zh/career/job-6/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/career/job-2/</loc>
+    <loc>//localhost:1313/zh/career/job-2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/career/job-2/"
+                href="//localhost:1313/career/job-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/career/job-2/"
+                href="//localhost:1313/zh/career/job-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/how-it-works/</loc>
+    <loc>//localhost:1313/zh/how-it-works/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/how-it-works/"
+                href="//localhost:1313/how-it-works/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/how-it-works/"
+                href="//localhost:1313/zh/how-it-works/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/career/job-3/</loc>
+    <loc>//localhost:1313/zh/career/job-3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/career/job-3/"
+                href="//localhost:1313/career/job-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/career/job-3/"
+                href="//localhost:1313/zh/career/job-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/career/job-1/</loc>
+    <loc>//localhost:1313/zh/career/job-1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/career/job-1/"
+                href="//localhost:1313/career/job-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/career/job-1/"
+                href="//localhost:1313/zh/career/job-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/career/job-5/</loc>
+    <loc>//localhost:1313/zh/career/job-5/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/career/job-5/"
+                href="//localhost:1313/career/job-5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/career/job-5/"
+                href="//localhost:1313/zh/career/job-5/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/pricing-2/</loc>
+    <loc>//localhost:1313/zh/pricing-2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/pricing-2/"
+                href="//localhost:1313/pricing-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/pricing-2/"
+                href="//localhost:1313/zh/pricing-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/pricing/</loc>
+    <loc>//localhost:1313/zh/pricing/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/pricing/"
+                href="//localhost:1313/pricing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/pricing/"
+                href="//localhost:1313/zh/pricing/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/privacy-policy/</loc>
+    <loc>//localhost:1313/zh/privacy-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/privacy-policy/"
+                href="//localhost:1313/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/privacy-policy/"
+                href="//localhost:1313/zh/privacy-policy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/profile/</loc>
+    <loc>//localhost:1313/zh/profile/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/services/</loc>
+    <loc>//localhost:1313/zh/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/services/"
+                href="//localhost:1313/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/services/"
+                href="//localhost:1313/zh/services/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/social/</loc>
+    <loc>//localhost:1313/zh/social/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/social/"
+                href="//localhost:1313/social/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/social/"
+                href="//localhost:1313/zh/social/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/tags/</loc>
+    <loc>//localhost:1313/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/tags/"
+                href="//localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/tags/"
+                href="//localhost:1313/zh/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/team/</loc>
+    <loc>//localhost:1313/zh/team/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/team/"
+                href="//localhost:1313/team/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/team/"
+                href="//localhost:1313/zh/team/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/terms-conditions/</loc>
+    <loc>//localhost:1313/zh/terms-conditions/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/terms-conditions/"
+                href="//localhost:1313/terms-conditions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/terms-conditions/"
+                href="//localhost:1313/zh/terms-conditions/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/testimonial/</loc>
+    <loc>//localhost:1313/zh/testimonial/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-zh"
-                href="http://localhost:1313/testimonial/"
+                href="//localhost:1313/testimonial/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/zh/testimonial/"
+                href="//localhost:1313/zh/testimonial/"
                 />
   </url>
 </urlset>

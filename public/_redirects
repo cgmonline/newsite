@@ -1,2 +1,0 @@
-/pro/*  /pro/:splat   200! Role=admin
-/pro/*  /login/       200! Role=user

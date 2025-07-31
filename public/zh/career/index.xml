@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Career on CGM</title>
-    <link>http://localhost:1313/zh/career/</link>
+    <link>//localhost:1313/zh/career/</link>
     <description>Recent content in Career on CGM</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright by CGM</copyright>
-    <atom:link href="http://localhost:1313/zh/career/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/zh/career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Full-Stack Designer</title>
-      <link>http://localhost:1313/zh/career/job-4/</link>
+      <link>//localhost:1313/zh/career/job-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/career/job-4/</guid>
+      <guid>//localhost:1313/zh/career/job-4/</guid>
       <description>&lt;h3 id=&#34;about-copper&#34;&gt;About Copper&lt;/h3&gt;&#xA;&lt;p&gt;At Copper, we want to make your neighborhood a little more familiar. Whether it’s a handyman&#xA;(or woman!), a housecleaner, moving help or delivery person, we’re imagining a world where everyone will&#xA;have a go-to team to make everyday life easier.&lt;/p&gt;&#xA;&lt;p&gt;As a pioneer of the sharing economy, TaskRabbit was founded on the premise of neighbors helping neighbors.&#xA;Since then, our network has grown to three countries and 45+ cities, yet our core mission of creating a&#xA;better everyday life for everyday people.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Full-Stack Engineer</title>
-      <link>http://localhost:1313/zh/career/job-6/</link>
+      <link>//localhost:1313/zh/career/job-6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/career/job-6/</guid>
+      <guid>//localhost:1313/zh/career/job-6/</guid>
       <description>&lt;h3 id=&#34;about-copper&#34;&gt;About Copper&lt;/h3&gt;&#xA;&lt;p&gt;At Copper, we want to make your neighborhood a little more familiar. Whether it’s a handyman&#xA;(or woman!), a housecleaner, moving help or delivery person, we’re imagining a world where everyone will&#xA;have a go-to team to make everyday life easier.&lt;/p&gt;&#xA;&lt;p&gt;As a pioneer of the sharing economy, TaskRabbit was founded on the premise of neighbors helping neighbors.&#xA;Since then, our network has grown to three countries and 45+ cities, yet our core mission of creating a&#xA;better everyday life for everyday people.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Head Design</title>
-      <link>http://localhost:1313/zh/career/job-2/</link>
+      <link>//localhost:1313/zh/career/job-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/career/job-2/</guid>
+      <guid>//localhost:1313/zh/career/job-2/</guid>
       <description>&lt;h3 id=&#34;about-copper&#34;&gt;About Copper&lt;/h3&gt;&#xA;&lt;p&gt;At Copper, we want to make your neighborhood a little more familiar. Whether it’s a handyman&#xA;(or woman!), a housecleaner, moving help or delivery person, we’re imagining a world where everyone will&#xA;have a go-to team to make everyday life easier.&lt;/p&gt;&#xA;&lt;p&gt;As a pioneer of the sharing economy, TaskRabbit was founded on the premise of neighbors helping neighbors.&#xA;Since then, our network has grown to three countries and 45+ cities, yet our core mission of creating a&#xA;better everyday life for everyday people.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java Developer</title>
-      <link>http://localhost:1313/zh/career/job-3/</link>
+      <link>//localhost:1313/zh/career/job-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/career/job-3/</guid>
+      <guid>//localhost:1313/zh/career/job-3/</guid>
       <description>&lt;h3 id=&#34;about-copper&#34;&gt;About Copper&lt;/h3&gt;&#xA;&lt;p&gt;At Copper, we want to make your neighborhood a little more familiar. Whether it’s a handyman&#xA;(or woman!), a housecleaner, moving help or delivery person, we’re imagining a world where everyone will&#xA;have a go-to team to make everyday life easier.&lt;/p&gt;&#xA;&lt;p&gt;As a pioneer of the sharing economy, TaskRabbit was founded on the premise of neighbors helping neighbors.&#xA;Since then, our network has grown to three countries and 45+ cities, yet our core mission of creating a&#xA;better everyday life for everyday people.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Laravel Developer</title>
-      <link>http://localhost:1313/zh/career/job-1/</link>
+      <link>//localhost:1313/zh/career/job-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/career/job-1/</guid>
+      <guid>//localhost:1313/zh/career/job-1/</guid>
       <description>&lt;h3 id=&#34;about-copper&#34;&gt;About Copper&lt;/h3&gt;&#xA;&lt;p&gt;At Copper, we want to make your neighborhood a little more familiar. Whether it’s a handyman&#xA;(or woman!), a housecleaner, moving help or delivery person, we’re imagining a world where everyone will&#xA;have a go-to team to make everyday life easier.&lt;/p&gt;&#xA;&lt;p&gt;As a pioneer of the sharing economy, TaskRabbit was founded on the premise of neighbors helping neighbors.&#xA;Since then, our network has grown to three countries and 45+ cities, yet our core mission of creating a&#xA;better everyday life for everyday people.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lead Product Designer</title>
-      <link>http://localhost:1313/zh/career/job-5/</link>
+      <link>//localhost:1313/zh/career/job-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/career/job-5/</guid>
+      <guid>//localhost:1313/zh/career/job-5/</guid>
       <description>&lt;h3 id=&#34;about-copper&#34;&gt;About Copper&lt;/h3&gt;&#xA;&lt;p&gt;At Copper, we want to make your neighborhood a little more familiar. Whether it’s a handyman&#xA;(or woman!), a housecleaner, moving help or delivery person, we’re imagining a world where everyone will&#xA;have a go-to team to make everyday life easier.&lt;/p&gt;&#xA;&lt;p&gt;As a pioneer of the sharing economy, TaskRabbit was founded on the premise of neighbors helping neighbors.&#xA;Since then, our network has grown to three countries and 45+ cities, yet our core mission of creating a&#xA;better everyday life for everyday people.&lt;/p&gt;</description>
     </item>
   </channel>

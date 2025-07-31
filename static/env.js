@@ -1,0 +1,6 @@
+// static/env.js
+window._env_ = {
+  AUTH0_CLIENT_ID: "",
+  AUTH0_DOMAIN: ""
+};
+

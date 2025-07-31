@@ -1,4 +1,5 @@
+<script src="/env.js"></script>
 <script>
-window.AUTH0_DOMAIN = '{{ getenv "AUTH0_DOMAIN" }}';
-window.AUTH0_CLIENT_ID = '{{ getenv "AUTH0_CLIENT_ID" }}';
+  window.AUTH0_DOMAIN = window._env_?.AUTH0_DOMAIN || "";
+  window.AUTH0_CLIENT_ID = window._env_?.AUTH0_CLIENT_ID || "";
 </script>

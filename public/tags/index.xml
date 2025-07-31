@@ -2,158 +2,158 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CGM</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on CGM</description>
     <generator>Hugo</generator>
     <language>zh-zh</language>
     <copyright>Copyright by CGM</copyright>
     <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automated Instrument Selection</title>
-      <link>http://localhost:1313/tags/automated-instrument-selection/</link>
+      <link>//localhost:1313/tags/automated-instrument-selection/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/automated-instrument-selection/</guid>
+      <guid>//localhost:1313/tags/automated-instrument-selection/</guid>
       <description></description>
     </item>
     <item>
       <title>Gibbs Sampling</title>
-      <link>http://localhost:1313/tags/gibbs-sampling/</link>
+      <link>//localhost:1313/tags/gibbs-sampling/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gibbs-sampling/</guid>
+      <guid>//localhost:1313/tags/gibbs-sampling/</guid>
       <description></description>
     </item>
     <item>
       <title>Horizontal Pleiotropic Effects</title>
-      <link>http://localhost:1313/tags/horizontal-pleiotropic-effects/</link>
+      <link>//localhost:1313/tags/horizontal-pleiotropic-effects/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/horizontal-pleiotropic-effects/</guid>
+      <guid>//localhost:1313/tags/horizontal-pleiotropic-effects/</guid>
       <description></description>
     </item>
     <item>
       <title>Joint Likelihood Framework</title>
-      <link>http://localhost:1313/tags/joint-likelihood-framework/</link>
+      <link>//localhost:1313/tags/joint-likelihood-framework/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/joint-likelihood-framework/</guid>
+      <guid>//localhost:1313/tags/joint-likelihood-framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Mendelian Randomization</title>
-      <link>http://localhost:1313/tags/mendelian-randomization/</link>
+      <link>//localhost:1313/tags/mendelian-randomization/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mendelian-randomization/</guid>
+      <guid>//localhost:1313/tags/mendelian-randomization/</guid>
       <description></description>
     </item>
     <item>
       <title>Talks</title>
-      <link>http://localhost:1313/tags/talks/</link>
+      <link>//localhost:1313/tags/talks/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/talks/</guid>
+      <guid>//localhost:1313/tags/talks/</guid>
       <description></description>
     </item>
     <item>
       <title>DNA Methylation; Plant Development; Regulation of Gene Expression</title>
-      <link>http://localhost:1313/tags/dna-methylation-plant-development-regulation-of-gene-expression/</link>
+      <link>//localhost:1313/tags/dna-methylation-plant-development-regulation-of-gene-expression/</link>
       <pubDate>Wed, 30 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dna-methylation-plant-development-regulation-of-gene-expression/</guid>
+      <guid>//localhost:1313/tags/dna-methylation-plant-development-regulation-of-gene-expression/</guid>
       <description></description>
     </item>
     <item>
       <title>Dianthus Caryophyllus</title>
-      <link>http://localhost:1313/tags/dianthus-caryophyllus/</link>
+      <link>//localhost:1313/tags/dianthus-caryophyllus/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dianthus-caryophyllus/</guid>
+      <guid>//localhost:1313/tags/dianthus-caryophyllus/</guid>
       <description></description>
     </item>
     <item>
       <title>Eugenol</title>
-      <link>http://localhost:1313/tags/eugenol/</link>
+      <link>//localhost:1313/tags/eugenol/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/eugenol/</guid>
+      <guid>//localhost:1313/tags/eugenol/</guid>
       <description></description>
     </item>
     <item>
       <title>Genome</title>
-      <link>http://localhost:1313/tags/genome/</link>
+      <link>//localhost:1313/tags/genome/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/genome/</guid>
+      <guid>//localhost:1313/tags/genome/</guid>
       <description></description>
     </item>
     <item>
       <title>Petal Pigments</title>
-      <link>http://localhost:1313/tags/petal-pigments/</link>
+      <link>//localhost:1313/tags/petal-pigments/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/petal-pigments/</guid>
+      <guid>//localhost:1313/tags/petal-pigments/</guid>
       <description></description>
     </item>
     <item>
       <title>Petaloid Stamens</title>
-      <link>http://localhost:1313/tags/petaloid-stamens/</link>
+      <link>//localhost:1313/tags/petaloid-stamens/</link>
       <pubDate>Wed, 23 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/petaloid-stamens/</guid>
+      <guid>//localhost:1313/tags/petaloid-stamens/</guid>
       <description></description>
     </item>
     <item>
       <title>DNA Methylation</title>
-      <link>http://localhost:1313/tags/dna-methylation/</link>
+      <link>//localhost:1313/tags/dna-methylation/</link>
       <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dna-methylation/</guid>
+      <guid>//localhost:1313/tags/dna-methylation/</guid>
       <description></description>
     </item>
     <item>
       <title>Long-Read Sequencing</title>
-      <link>http://localhost:1313/tags/long-read-sequencing/</link>
+      <link>//localhost:1313/tags/long-read-sequencing/</link>
       <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/long-read-sequencing/</guid>
+      <guid>//localhost:1313/tags/long-read-sequencing/</guid>
       <description></description>
     </item>
     <item>
       <title>Multi-Way Interaction</title>
-      <link>http://localhost:1313/tags/multi-way-interaction/</link>
+      <link>//localhost:1313/tags/multi-way-interaction/</link>
       <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/multi-way-interaction/</guid>
+      <guid>//localhost:1313/tags/multi-way-interaction/</guid>
       <description></description>
     </item>
     <item>
       <title>Pore-C</title>
-      <link>http://localhost:1313/tags/pore-c/</link>
+      <link>//localhost:1313/tags/pore-c/</link>
       <pubDate>Wed, 16 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pore-c/</guid>
+      <guid>//localhost:1313/tags/pore-c/</guid>
       <description></description>
     </item>
     <item>
       <title>Adaptive Evolution</title>
-      <link>http://localhost:1313/tags/adaptive-evolution/</link>
+      <link>//localhost:1313/tags/adaptive-evolution/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/adaptive-evolution/</guid>
+      <guid>//localhost:1313/tags/adaptive-evolution/</guid>
       <description></description>
     </item>
     <item>
       <title>Diversification</title>
-      <link>http://localhost:1313/tags/diversification/</link>
+      <link>//localhost:1313/tags/diversification/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/diversification/</guid>
+      <guid>//localhost:1313/tags/diversification/</guid>
       <description></description>
     </item>
     <item>
       <title>Gene Duplication</title>
-      <link>http://localhost:1313/tags/gene-duplication/</link>
+      <link>//localhost:1313/tags/gene-duplication/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gene-duplication/</guid>
+      <guid>//localhost:1313/tags/gene-duplication/</guid>
       <description></description>
     </item>
     <item>
       <title>Nuclear Phylogeny</title>
-      <link>http://localhost:1313/tags/nuclear-phylogeny/</link>
+      <link>//localhost:1313/tags/nuclear-phylogeny/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nuclear-phylogeny/</guid>
+      <guid>//localhost:1313/tags/nuclear-phylogeny/</guid>
       <description></description>
     </item>
     <item>
       <title>Pooideae</title>
-      <link>http://localhost:1313/tags/pooideae/</link>
+      <link>//localhost:1313/tags/pooideae/</link>
       <pubDate>Wed, 09 Mar 2022 20:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pooideae/</guid>
+      <guid>//localhost:1313/tags/pooideae/</guid>
       <description></description>
     </item>
   </channel>
