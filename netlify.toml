@@ -2,8 +2,6 @@
 publish = "public"
 command = "hugo --minify --gc"
 
-[[plugins]]
-  package = "./plugins/env-injector"
   
 [build.environment]
 HUGO_VERSION = "0.106.0"
