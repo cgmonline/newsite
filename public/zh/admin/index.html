@@ -288,7 +288,8 @@
   
   <!-- navigation -->
 
- <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" data-netlify-identity="http://cgmx.org/.netlify/identity"></script>
+ <script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
+ <script src="/auth0-init.js"></script>
  
 <header class="header-nav position-relative bg-light-gray" data-aos="fade-in">
   <div class="container">
@@ -525,14 +526,14 @@
           
           
           
-          <a id="signup-btn" href="#" onclick="netlifyIdentity.open('signup'); return false;"
+          <a id="signup-btn" href="#" onclick="auth0 && auth0.loginWithRedirect({screen_hint: 'signup'}); return false;"
             class="btn btn-sm btn-outline-primary">Sign Up</a>
           
           
 
           
           
-          <a id="login-btn" href="#" onclick="netlifyIdentity.open('login'); return false;"
+          <a id="login-btn" href="#" onclick="auth0 && auth0.loginWithRedirect(); return false;"
             class="btn btn-sm btn-link pe-xl-0">Log In<svg width="1.5em" height="1.5em"
               viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
               xmlns="http://www.w3.org/2000/svg">
@@ -594,7 +595,8 @@
 
   <!-- Include the styles for the Netlify CMS UI, after your own styles -->
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^0.7.0/dist/cms.css" />
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
+  <script src="/auth0-init.js"></script>
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->

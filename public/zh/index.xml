@@ -164,6 +164,13 @@
       <description>&lt;h3 id=&#34;gdpr-compliance&#34;&gt;GDPR Compliance&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.&lt;/p&gt;&#xA;&lt;p&gt;We collect certain identifying personal data when you sign up to our Service such as your name, email&#xA;address, PayPal address (if different from email address), and telephone number. The personal data we&#xA;collect from you is disclosed only in accordance with our Terms of Service and/or this Privacy&#xA;Policy.Conclude collects Slack account and access information from Users for the purposes of connecting to&#xA;the Slack API and to authenticate access to information on the Conclude website. Whenever you visit our&#xA;Site, we may collect non-identifying information from you, such as referring URL, browser, operating system,&#xA;cookie information, and Internet Service Provider. Without a subpoena, voluntary compliance on the part of&#xA;your Internet Service Provider, or additional records from a third party, this information alone cannot&#xA;usually be used to identify you.The term &amp;ldquo;personal data&amp;rdquo; does not include any anonymized and aggregated data&#xA;made on the basis of personal data, which are wholly owned by Conclude.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Profile</title>
+      <link>http://localhost:1313/zh/profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/profile/</guid>
+      <description>&lt;div class=&#34;container py-5&#34;&gt;&#xA;  &lt;h1&gt;Edit Profile&lt;/h1&gt;&#xA;  &lt;form id=&#34;profile-form&#34; class=&#34;my-4&#34;&gt;&#xA;    &lt;div class=&#34;mb-3&#34;&gt;&#xA;      &lt;label for=&#34;full_name&#34; class=&#34;form-label&#34;&gt;Full Name&lt;/label&gt;&#xA;      &lt;input type=&#34;text&#34; class=&#34;form-control&#34; id=&#34;full_name&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;button type=&#34;submit&#34; class=&#34;btn btn-primary&#34;&gt;Save&lt;/button&gt;&#xA;  &lt;/form&gt;&#xA;&lt;/div&gt;&#xA;&lt;script src=&#34;http://localhost:1313/profile.js&#34;&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
       <title>Services</title>
       <link>http://localhost:1313/zh/services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
