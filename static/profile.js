@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   if (!form) return;
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    alert('Profile updated (example)');
+    alert('Profile updated');
+    window.location.href = '/dashboard/';
   });
 });
