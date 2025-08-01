@@ -9,18 +9,22 @@
   </div>
 </section>
 
-<script src="auth0-init.js"></script>
+<script src="/auth0-init.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", async () => {
     const client = await window.auth0ClientPromise;
     const isAuthenticated = await client.isAuthenticated();
     if (!isAuthenticated) return window.location.href = "/";
 
-    const user = await client.getUser();
-    document.getElementById("firstName").textContent = user.given_name || "";
-    document.getElementById("lastName").textContent = user.family_name || "";
-    document.getElementById("email").textContent = user.email || "";
-    document.getElementById("organization").textContent = user.organization || "";
+    const idTokenClaims = await client.getIdTokenClaims();
+    console.log("Decoded claims:", idTokenClaims);
+
+    const namespace = "https://cgmx.org/";
+
+    document.getElementById("firstName").textContent = idTokenClaims.given_name || "";
+    document.getElementById("lastName").textContent = idTokenClaims.family_name || "";
+    document.getElementById("email").textContent = idTokenClaims.email || "";
+    document.getElementById("organization").textContent = idTokenClaims[`${namespace}organization`] || "";
   });
 </script>
 {{ end }}

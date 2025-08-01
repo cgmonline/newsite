@@ -72,6 +72,7 @@
           messageEl.classList.remove("d-none", "alert-danger");
           messageEl.classList.add("alert-success");
           messageEl.textContent = "✅ Profile updated successfully.";
+          await client.getTokenSilently({ ignoreCache: true });
           window.location.href = "/dashboard/";
         } else {
           messageEl.classList.remove("d-none", "alert-success");
