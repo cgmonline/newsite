@@ -1,9 +1,9 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<!-- Auth0 widget script -->
- <script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
- {{ partial "auth0-config.html" }}
- <script src="{{ "auth0-init.js" | relURL }}"></script>
- 
+<!-- Auth0 Scripts -->
+<script src="https://cdn.auth0.com/js/auth0-spa-js/1.19/auth0-spa-js.production.js"></script>
+{{ partial "auth0-config.html" }}
+<script src="{{ "auth0-init.js" | relURL }}"></script>
+
 <header class="header-nav position-relative {{.Scratch.Get `bg`}}" data-aos="fade-in">
   <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light px-0">
@@ -21,13 +21,11 @@
             d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
         </svg>
       </button>
-      <!-- mobile-nav control button -->
 
       <div class="collapse navbar-collapse" id="navlinks">
         <ul class="navbar-nav mx-auto">
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
-
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#"
               id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -38,7 +36,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               {{ range .Children }}
-              <li><a class="dropdown-item" h{{if findRE `^http` .URL}}target="_blank" {{end}}
+              <li><a class="dropdown-item" {{if findRE `^http` .URL}}target="_blank" {{end}}
                   href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{
                   .Name }}</a>
               </li>
@@ -53,9 +51,10 @@
           </li>
           {{ end }}
           {{ end }}
+          
+          <!-- Language selector -->
+          {{ if .IsTranslated }}
           <li class="nav-link">
-            <!-- Language List -->
-            {{ if .IsTranslated }}
             <select class="border-0 bg-transparent" id="select-language" onchange="location = this.value;">
               {{ $siteLanguages := site.Languages}}
               {{ $pageLang := .Page.Lang}}
@@ -63,10 +62,8 @@
               {{ $translation := .}}
               {{ range $siteLanguages }}
               {{ if eq $translation.Lang .Lang }}
-              {{ $selected := false }}
               {{ if eq $pageLang .Lang}}
-              <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-              </option>
+              <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
               {{ else }}
               <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
               {{ end }}
@@ -74,57 +71,170 @@
               {{ end }}
               {{ end }}
             </select>
-            {{ end }}
           </li>
+          {{ end }}
         </ul>
       
-        
-        
-          <div>
+        <!-- Auth Section -->
+        <div class="d-flex align-items-center">
+          <!-- Loading indicator -->
+          <div id="auth-loading" class="spinner-border spinner-border-sm me-2" style="display: none;" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          
+          <!-- Login/Signup buttons (shown when not authenticated) -->
+          <div id="auth-buttons" style="display: none;">
+            {{ with site.Params.navigation_button_bordered}}
+            {{ if .enable }}
+            <button id="signup-btn" class="btn btn-sm btn-outline-primary me-2">{{ .label }}</button>
+            {{ end }}
+            {{ end }}
 
-            <!-- Loading indicator -->
-            <div id="auth-loading" style="display:none" class="spinner-border spinner-border-sm me-2" role="status"></div>
-
-            <!-- Buttons shown when not authenticated -->
-            <div id="auth-buttons" class="navbar-button d-flex gap-2">
-              {{ with site.Params.navigation_button_bordered}}
-              {{ if .enable }}
-              <a id="signup-btn" href="#" class="btn btn-sm btn-outline-primary">{{ .label }}</a>
-              {{ end }}
-              {{ end }}
-
-              {{ with site.Params.navigation_button_linked}}
-              {{ if .enable }}
-              <a id="login-btn" href="#" class="btn btn-sm btn-link pe-xl-0">{{ .label }}<svg width="1.5em" height="1.5em"
-                  viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd"
-                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                </svg></a>
-              {{ end }}
-              {{ end }}
-            </div>
-
-            <!-- Dropdown shown when authenticated -->
-            <div class="dropdown d-none" id="user-menu" style="display:none;">
-              <a class="btn btn-sm btn-outline-primary dropdown-toggle" href="#" id="user-dropdown-btn" role="button" aria-expanded="false">
-                <span id="user-name">User</span>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end" id="user-dropdown">
-                <li><a class="dropdown-item" href="/profile/">Profile</a></li>
-                <li><a class="dropdown-item" href="/faq/">Manu</a></li>
-                <li><a class="dropdown-item" href="/services/">Services</a></li>
-                <li><a class="dropdown-item" href="#" id="logout-btn">Log out</a></li>
-              </ul>
-            </div>
-
-            <script src="{{ "header-auth.js" | relURL }}" defer></script>
-
+            {{ with site.Params.navigation_button_linked}}
+            {{ if .enable }}
+            <button id="login-btn" class="btn btn-sm btn-link pe-xl-0">{{ .label }}
+              <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+              </svg>
+            </button>
+            {{ end }}
+            {{ end }}
           </div>
 
+          <!-- User menu (shown when authenticated) -->
+          <div id="user-menu" class="dropdown" style="display: none;">
+            <button id="user-dropdown-btn" class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span id="user-name">User</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="/profile/">Profile</a></li>
+              <li><a class="dropdown-item" href="/faq/">FAQ</a></li>
+              <li><a class="dropdown-item" href="/services/">Services</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><button id="logout-btn" class="dropdown-item" type="button">Log out</button></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <!-- nav links -->
     </nav>
   </div>
 </header>
+
+<!-- Initialize auth after DOM loads -->
+<script>
+// Consolidated auth management - no separate files needed
+document.addEventListener('DOMContentLoaded', async function() {
+    console.log('🔧 Initializing header auth...');
+    
+    const elements = {
+        authLoading: document.getElementById('auth-loading'),
+        authButtons: document.getElementById('auth-buttons'),
+        userMenu: document.getElementById('user-menu'),
+        userName: document.getElementById('user-name'),
+        loginBtn: document.getElementById('login-btn'),
+        signupBtn: document.getElementById('signup-btn'),
+        logoutBtn: document.getElementById('logout-btn')
+    };
+    
+    let currentUser = null;
+    
+    function showLoading() {
+        if (elements.authLoading) elements.authLoading.style.display = 'block';
+        if (elements.authButtons) elements.authButtons.style.display = 'none';
+        if (elements.userMenu) elements.userMenu.style.display = 'none';
+    }
+    
+    function hideLoading() {
+        if (elements.authLoading) elements.authLoading.style.display = 'none';
+    }
+    
+    function updateUIForUser(user) {
+        console.log('👤 User authenticated:', user?.email);
+        currentUser = user;
+        hideLoading();
+        
+        if (elements.authButtons) elements.authButtons.style.display = 'none';
+        if (elements.userMenu) elements.userMenu.style.display = 'block';
+        if (elements.userName && user) {
+            elements.userName.textContent = user.name || user.email || 'User';
+        }
+    }
+    
+    function updateUIForGuest() {
+        console.log('👤 User not authenticated');
+        currentUser = null;
+        hideLoading();
+        
+        if (elements.userMenu) elements.userMenu.style.display = 'none';
+        if (elements.authButtons) elements.authButtons.style.display = 'flex';
+    }
+    
+    // Show loading initially
+    showLoading();
+    
+    try {
+        const auth0Client = await window.auth0ClientPromise;
+        console.log('✅ Auth0 client ready');
+        
+        // Check initial auth status
+        const isAuthenticated = await auth0Client.isAuthenticated();
+        if (isAuthenticated) {
+            const user = await auth0Client.getUser();
+            updateUIForUser(user);
+        } else {
+            updateUIForGuest();
+        }
+        
+        // Set up event listeners
+        if (elements.loginBtn) {
+            elements.loginBtn.addEventListener('click', async (e) => {
+                e.preventDefault();
+                sessionStorage.setItem('auth0_return_to', window.location.pathname);
+                await auth0Client.loginWithRedirect({
+                    authorizationParams: {
+                        redirect_uri: window.location.origin + '/callback/'
+                    }
+                });
+            });
+        }
+        
+        if (elements.signupBtn) {
+            elements.signupBtn.addEventListener('click', async (e) => {
+                e.preventDefault();
+                sessionStorage.setItem('auth0_return_to', window.location.pathname);
+                await auth0Client.loginWithRedirect({
+                    authorizationParams: {
+                        redirect_uri: window.location.origin + '/callback/',
+                        screen_hint: 'signup'
+                    }
+                });
+            });
+        }
+        
+        if (elements.logoutBtn) {
+            elements.logoutBtn.addEventListener('click', async (e) => {
+                e.preventDefault();
+                await auth0Client.logout({
+                    logoutParams: { returnTo: window.location.origin }
+                });
+            });
+        }
+        
+        // Listen for auth state changes from callback
+        window.addEventListener('authStateChanged', (event) => {
+            if (event.detail.isAuthenticated && event.detail.user) {
+                updateUIForUser(event.detail.user);
+            } else {
+                updateUIForGuest();
+            }
+        });
+        
+        console.log('✅ Header auth initialized');
+        
+    } catch (error) {
+        console.error('❌ Header auth initialization failed:', error);
+        updateUIForGuest();
+    }
+});
+</script>
 {{ "<!-- /navigation -->" | safeHTML }}
