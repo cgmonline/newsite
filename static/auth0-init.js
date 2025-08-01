@@ -8,15 +8,15 @@
     return;
   }
 
-  // List of allowed callback paths
+  // Define all callback paths to support
   const allowedCallbackPaths = [
     "/callback/",
     "/admin/callback/",
     "/user/callback/",
-    "/dashboard/callback/",
+    "/dashboard/callback/"
   ];
 
-  // Check if current page is one of the allowed callback URLs and has Auth0 params
+  // Detect if current URL is a callback URL with Auth0 query params
   function isOnCallbackPage() {
     return (
       allowedCallbackPaths.includes(window.location.pathname) &&
@@ -25,10 +25,10 @@
     );
   }
 
-  // Use current page as the redirect_uri so it works dynamically
+  // Use current path for redirect URI, so it's role-aware
   const redirectUri = window.location.origin + window.location.pathname;
 
-  // Initialize the Auth0 client
+  // Initialize the Auth0 client globally
   window.auth0ClientPromise = createAuth0Client({
     domain,
     client_id: clientId,
@@ -41,7 +41,7 @@
       window.dispatchEvent(new Event("auth0-ready"));
       window.dispatchEvent(new Event("auth0Ready"));
 
-      // Handle redirect if on callback page
+      // Handle callback flow if applicable
       if (isOnCallbackPage()) {
         try {
           console.log("🔄 Handling Auth0 redirect callback...");
@@ -53,16 +53,15 @@
           const returnTo = sessionStorage.getItem("auth0_return_to") || "/";
           sessionStorage.removeItem("auth0_return_to");
 
-          // Optional: Show user info
           const statusEl = document.getElementById("callback-status");
           if (statusEl) {
             statusEl.textContent = `欢迎您, ${user.name || user.email}`;
           }
 
-          // Redirect to original page
           setTimeout(() => {
             window.location.href = returnTo;
           }, 1000);
+
         } catch (err) {
           console.error("❌ Error handling Auth0 callback:", err);
           const statusEl = document.getElementById("callback-status");
