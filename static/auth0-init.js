@@ -8,40 +8,28 @@
     return;
   }
 
-  // Define all callback paths to support
-  const allowedCallbackPaths = [
-    "/callback/",
-    "/admin/callback/",
-    "/user/callback/",
-    "/dashboard/callback/"
-  ];
-
-  // Detect if current URL is a callback URL with Auth0 query params
+  // Helper to detect if we're on the /callback/ page
   function isOnCallbackPage() {
     return (
-      allowedCallbackPaths.includes(window.location.pathname) &&
+      window.location.pathname === "/callback/" &&
       window.location.search.includes("code=") &&
       window.location.search.includes("state=")
     );
   }
 
-  // Use current path for redirect URI, so it's role-aware
-  const redirectUri = window.location.origin + window.location.pathname;
-
-  // Initialize the Auth0 client globally
+  // Initialize the client and handle redirect if on callback page
   window.auth0ClientPromise = createAuth0Client({
     domain,
     client_id: clientId,
     cacheLocation: "localstorage",
     useRefreshTokens: true,
-    redirect_uri: redirectUri,
+    redirect_uri: window.location.origin + "/callback/",
   })
     .then(async (client) => {
       window.auth0 = client;
       window.dispatchEvent(new Event("auth0-ready"));
       window.dispatchEvent(new Event("auth0Ready"));
 
-      // Handle callback flow if applicable
       if (isOnCallbackPage()) {
         try {
           console.log("🔄 Handling Auth0 redirect callback...");
@@ -53,15 +41,16 @@
           const returnTo = sessionStorage.getItem("auth0_return_to") || "/";
           sessionStorage.removeItem("auth0_return_to");
 
+          // Optional: show user info or redirect
           const statusEl = document.getElementById("callback-status");
           if (statusEl) {
             statusEl.textContent = `欢迎您, ${user.name || user.email}`;
           }
 
+          // Short delay to let UI update before redirect
           setTimeout(() => {
             window.location.href = returnTo;
           }, 1000);
-
         } catch (err) {
           console.error("❌ Error handling Auth0 callback:", err);
           const statusEl = document.getElementById("callback-status");
