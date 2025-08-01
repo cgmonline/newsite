@@ -1,5 +1,7 @@
 const fetch = require("node-fetch");
 
+const AUTH0_ISSUER_BASE_URL = process.env.AUTH0_ISSUER_BASE_URL;
+
 exports.handler = async (event) => {
   try {
     const data = JSON.parse(event.body || "{}");
@@ -7,13 +9,13 @@ exports.handler = async (event) => {
 
     console.log("Payload:", data);
 
-    const tokenRes = await fetch("https://dev-bm83wa86bo4gmb4x.us.auth0.com/oauth/token", {
+    const tokenRes = await fetch(`${AUTH0_ISSUER_BASE_URL}/oauth/token`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         client_id: process.env.AUTH0_M2M_CLIENT_ID,
         client_secret: process.env.AUTH0_M2M_CLIENT_SECRET,
-        audience: "https://dev-bm83wa86bo4gmb4x.us.auth0.com/api/v2/",
+        audience: `${AUTH0_ISSUER_BASE_URL}/api/v2/`,
         grant_type: "client_credentials"
       })
     });
@@ -21,11 +23,15 @@ exports.handler = async (event) => {
     const tokenJson = await tokenRes.json();
     if (!tokenRes.ok) {
       console.error("Token error:", tokenJson);
-      return { statusCode: 500, body: JSON.stringify({ error: "Token request failed", details: tokenJson }) };
+      return {
+        statusCode: 500,
+        body: JSON.stringify({ error: "Token request failed", details: tokenJson })
+      };
     }
 
     const accessToken = tokenJson.access_token;
-    const patchRes = await fetch(`https://dev-bm83wa86bo4gmb4x.us.auth0.com/api/v2/users/${userId}`, {
+
+    const patchRes = await fetch(`${AUTH0_ISSUER_BASE_URL}/api/v2/users/${userId}`, {
       method: "PATCH",
       headers: {
         Authorization: `Bearer ${accessToken}`,
