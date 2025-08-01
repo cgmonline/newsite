@@ -28,7 +28,8 @@ custom_script = ""
 
 # copyright
 theme_copyright = true
-copyright = "Copyright by CGM @2023" # also change copyright in language.toml file
+copyright = "Copyright by CGM" # also change copyright in language.toml file
+year = 2025
 
 # Preloader
 [preloader]
