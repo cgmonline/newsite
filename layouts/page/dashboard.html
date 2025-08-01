@@ -19,12 +19,10 @@
     const idTokenClaims = await client.getIdTokenClaims();
     console.log("Decoded claims:", idTokenClaims);
 
-    const namespace = "https://cgmx.org/";
-
     document.getElementById("firstName").textContent = idTokenClaims.given_name || "";
     document.getElementById("lastName").textContent = idTokenClaims.family_name || "";
     document.getElementById("email").textContent = idTokenClaims.email || "";
-    document.getElementById("organization").textContent = idTokenClaims[`${namespace}organization`] || "";
+    document.getElementById("organization").textContent = idTokenClaims.organization || "";
   });
 </script>
 {{ end }}
