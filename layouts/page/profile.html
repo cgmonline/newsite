@@ -54,10 +54,29 @@
 
       formEl.addEventListener("submit", async (e) => {
         e.preventDefault();
-        // Local-only update simulation
-        messageEl.classList.remove("d-none", "alert-danger");
-        messageEl.classList.add("alert-success");
-        messageEl.textContent = "✅ Profile updated locally (for demo only).";
+
+        const payload = {
+          userId: user.sub,
+          firstName: document.getElementById("firstName").value,
+          lastName: document.getElementById("lastName").value,
+          organization: document.getElementById("organization").value,
+        };
+
+        const res = await fetch("/.netlify/functions/update-profile", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+
+        if (res.ok) {
+          messageEl.classList.remove("d-none", "alert-danger");
+          messageEl.classList.add("alert-success");
+          messageEl.textContent = "✅ Profile updated successfully.";
+        } else {
+          messageEl.classList.remove("d-none", "alert-success");
+          messageEl.classList.add("alert-danger");
+          messageEl.textContent = "❌ Failed to update profile.";
+        }
       });
 
     } catch (err) {
