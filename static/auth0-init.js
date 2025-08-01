@@ -8,28 +8,40 @@
     return;
   }
 
-  // Helper to detect if we're on the /callback/ page
+  // List of allowed callback paths
+  const allowedCallbackPaths = [
+    "/callback/",
+    "/admin/callback/",
+    "/user/callback/",
+    "/dashboard/callback/",
+  ];
+
+  // Check if current page is one of the allowed callback URLs and has Auth0 params
   function isOnCallbackPage() {
     return (
-      window.location.pathname === "/callback/" &&
+      allowedCallbackPaths.includes(window.location.pathname) &&
       window.location.search.includes("code=") &&
       window.location.search.includes("state=")
     );
   }
 
-  // Initialize the client and handle redirect if on callback page
+  // Use current page as the redirect_uri so it works dynamically
+  const redirectUri = window.location.origin + window.location.pathname;
+
+  // Initialize the Auth0 client
   window.auth0ClientPromise = createAuth0Client({
     domain,
     client_id: clientId,
     cacheLocation: "localstorage",
     useRefreshTokens: true,
-    redirect_uri: window.location.origin + "/callback/",
+    redirect_uri: redirectUri,
   })
     .then(async (client) => {
       window.auth0 = client;
       window.dispatchEvent(new Event("auth0-ready"));
       window.dispatchEvent(new Event("auth0Ready"));
 
+      // Handle redirect if on callback page
       if (isOnCallbackPage()) {
         try {
           console.log("🔄 Handling Auth0 redirect callback...");
@@ -41,13 +53,13 @@
           const returnTo = sessionStorage.getItem("auth0_return_to") || "/";
           sessionStorage.removeItem("auth0_return_to");
 
-          // Optional: show user info or redirect
+          // Optional: Show user info
           const statusEl = document.getElementById("callback-status");
           if (statusEl) {
             statusEl.textContent = `欢迎您, ${user.name || user.email}`;
           }
 
-          // Short delay to let UI update before redirect
+          // Redirect to original page
           setTimeout(() => {
             window.location.href = returnTo;
           }, 1000);
