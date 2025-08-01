@@ -15,5 +15,11 @@
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.1",
     "prettier-plugin-go-template": "0.0.13"
+  },
+  "main": "postcss.config.js",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
   }
 }
