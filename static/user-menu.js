@@ -1,18 +1,18 @@
 async function updateUserMenu(user) {
   const menu = document.getElementById('user-menu');
   const name = document.getElementById('user-name');
-  const loginBtn = document.getElementById('login-btn');
-  const signupBtn = document.getElementById('signup-btn');
+  const loginBtns = document.querySelectorAll('#login-btn');
+  const signupBtns = document.querySelectorAll('#signup-btn');
   if (!menu || !name) return;
   if (user) {
     name.textContent = user.name || user.email || 'User';
     menu.classList.remove('d-none');
-    if (loginBtn) loginBtn.style.display = 'none';
-    if (signupBtn) signupBtn.style.display = 'none';
+    loginBtns.forEach((el) => (el.style.display = 'none'));
+    signupBtns.forEach((el) => (el.style.display = 'none'));
   } else {
     menu.classList.add('d-none');
-    if (loginBtn) loginBtn.style.display = '';
-    if (signupBtn) signupBtn.style.display = '';
+    loginBtns.forEach((el) => (el.style.display = ''));
+    signupBtns.forEach((el) => (el.style.display = ''));
   }
 }
 
