@@ -19,6 +19,7 @@
     .then((client) => {
       window.auth0 = client;
       window.dispatchEvent(new Event("auth0-ready"));
+      window.dispatchEvent(new Event("auth0Ready"));
       return client;
     })
     .catch((err) => {
