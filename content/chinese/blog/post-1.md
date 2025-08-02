@@ -6,6 +6,7 @@ author: "Ausie Makquis"
 author_profile: "https://linkedin.com/in/#"
 description : "this is meta description"
 categories: ["Technology"]
+tags: ["product", "launch", "blog"]
 draft : false
 ---
 
