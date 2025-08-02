@@ -7,7 +7,7 @@
 <header class="header-nav position-relative {{.Scratch.Get `bg`}}" data-aos="fade-in">
   <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light px-0">
-      <a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}/">
+      <a class="navbar-brand p-0" href="{{ "/" | relLangURL }}">
         {{ partial "logo.html" }}
       </a>
 
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (elements.loginBtn) {
             elements.loginBtn.addEventListener('click', async (e) => {
                 e.preventDefault();
-                sessionStorage.setItem('auth0_return_to', window.location.pathname);
+                sessionStorage.setItem('auth0_return_to', '/profile/');
                 await auth0Client.loginWithRedirect({
                     authorizationParams: {
                         redirect_uri: window.location.origin + '/callback/'
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (elements.signupBtn) {
             elements.signupBtn.addEventListener('click', async (e) => {
                 e.preventDefault();
-                sessionStorage.setItem('auth0_return_to', window.location.pathname);
+                sessionStorage.setItem('auth0_return_to', '/profile/');
                 await auth0Client.loginWithRedirect({
                     authorizationParams: {
                         redirect_uri: window.location.origin + '/callback/',

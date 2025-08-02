@@ -42,6 +42,10 @@ Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
   headers = {X-From = "Netlify"}
   signed = "API_SIGNATURE_TOKEN"
 
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["netlify/functions/**"]
+
 # In this example, visitors whose JWT tokens include the `admin` or 
 # `editor` role can access the `/admin` path.
 

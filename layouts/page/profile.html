@@ -1,0 +1,91 @@
+{{ define "main" }}
+<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-xl-8">
+        <div class="content">
+          <h2 class="mb-4">User Profile</h2>
+          <div id="profile-message" class="alert d-none"></div>
+          <form id="profile-form" class="row shadow p-2 p-sm-4 mt-20">
+            <div class="form-group mb-20 col-md-6">
+              <label class="h6 font-weight-600 mb-2" for="firstName">First Name</label>
+              <input class="form-control shadow-none" type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group mb-20 col-md-6">
+              <label class="h6 font-weight-600 mb-2" for="lastName">Last Name</label>
+              <input class="form-control shadow-none" type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group mb-20 col-12">
+              <label class="h6 font-weight-600 mb-2" for="email">Email</label>
+              <input class="form-control shadow-none" type="email" id="email" name="email" disabled>
+            </div>
+            <div class="form-group mb-20 col-12">
+              <label class="h6 font-weight-600 mb-2" for="organization">Organization</label>
+              <input class="form-control shadow-none" type="text" id="organization" name="organization">
+            </div>
+            <div class="form-group col-12">
+              <button class="btn btn-primary w-100" type="submit">Update Profile</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const messageEl = document.getElementById("profile-message");
+    const formEl = document.getElementById("profile-form");
+
+    try {
+      const client = await window.auth0ClientPromise;
+      const isAuthenticated = await client.isAuthenticated();
+      if (!isAuthenticated) {
+        window.location.href = "/";
+        return;
+      }
+
+      const user = await client.getUser();
+      document.getElementById("firstName").value = user.given_name || "";
+      document.getElementById("lastName").value = user.family_name || "";
+      document.getElementById("email").value = user.email || "";
+      document.getElementById("organization").value = user.organization || "";
+
+      formEl.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const payload = {
+          userId: user.sub,
+          firstName: document.getElementById("firstName").value,
+          lastName: document.getElementById("lastName").value,
+          organization: document.getElementById("organization").value,
+        };
+
+        const res = await fetch("/.netlify/functions/update-profile", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+
+        if (res.ok) {
+          messageEl.classList.remove("d-none", "alert-danger");
+          messageEl.classList.add("alert-success");
+          messageEl.textContent = "✅ Profile updated successfully.";
+          await client.getTokenSilently({ ignoreCache: true });
+          window.location.href = "/dashboard/";
+        } else {
+          messageEl.classList.remove("d-none", "alert-success");
+          messageEl.classList.add("alert-danger");
+          messageEl.textContent = "❌ Failed to update profile.";
+        }
+      });
+
+    } catch (err) {
+      messageEl.classList.remove("d-none");
+      messageEl.classList.add("alert-danger");
+      messageEl.textContent = "❌ Failed to load profile. Please log in again.";
+    }
+  });
+</script>
+{{ end }}
